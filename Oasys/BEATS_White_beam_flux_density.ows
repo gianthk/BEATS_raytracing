@@ -1,19 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="BEATS TDR Chapter 07f_d: White beam flux density @ sample" title="BEATS white beam flux density @ sample" version="2.0" working_directory="/home/gianthk/Git/BEATS_raytracing/Oasys" workspace_units="2">
 	<nodes>
-		<node id="0" name="Wiggler" position="(-909.0, -230.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_wiggler.Wiggler" title="BEATS 3PW" version="" />
-		<node id="1" name="WIGGLER" position="(-833.0, 312.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="BEATS 3PW" version="" />
-		<node id="2" name="Screen-Slits" position="(-442.0, -237.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Fix mask @ 6500mm; 6.5mm (Hor.) (1mrad)" version="" />
-		<node id="3" name="Screen-Slits" position="(74.0, -246.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Sample @ 43m" version="" />
-		<node id="4" name="Screen-Slits" position="(-186.0, -247.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Slits_1 @ 7635m" version="" />
-		<node id="5" name="Screen-Slits" position="(-245.0, -30.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Sample @ 43m" version="" />
-		<node id="6" name="Info" position="(316.0, -197.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
-		<node id="7" name="Info" position="(-24.0, 8.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
-		<node id="8" name="POWER" position="(-423.0, 193.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xpower.OWxpower" title="CVD; Al_1mm; Cu_0.05mm; Air_1m" version="" />
-		<node id="9" name="Python Script" position="(308.0, 313.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="WB FLUX" version="" />
-		<node id="10" name="Screen-Slits" position="(-715.0, -83.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Fix mask @ 6500mm; 6.5 Hor. (1mrad)" version="" />
-		<node id="11" name="Python Script" position="(-539.0, 4.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="3PW flux in 1mrad Hor. accept. angle" version="" />
-		<node id="12" name="Screen-Slits" position="(-636.0, -237.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Crotch absorber @ 4100mm" version="" />
+		<node id="0" name="Wiggler" position="(-793.0, -244.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_wiggler.Wiggler" title="BEATS 3PW" version="" />
+		<node id="1" name="WIGGLER" position="(-788.0, 163.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="BEATS 3PW" version="" />
+		<node id="2" name="Screen-Slits" position="(-326.0, -251.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Fix mask @ 6500mm; 6.5mm (Hor.) (1mrad)" version="" />
+		<node id="3" name="Screen-Slits" position="(190.0, -260.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Sample @ 43m" version="" />
+		<node id="4" name="Screen-Slits" position="(-70.0, -261.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Slits_1 @ 7635m" version="" />
+		<node id="5" name="Screen-Slits" position="(-129.0, -44.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Sample @ 43m" version="" />
+		<node id="6" name="Info" position="(406.0, -208.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
+		<node id="7" name="Info" position="(86.0, -51.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
+		<node id="8" name="POWER" position="(-402.0, 206.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xpower.OWxpower" title="CVD; Al_1mm; Cu_0.05mm; Air_1m" version="" />
+		<node id="9" name="Python Script" position="(353.0, 164.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="WB FLUX" version="" />
+		<node id="10" name="Screen-Slits" position="(-599.0, -97.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Fix mask @ 6500mm; 6.5 Hor. (1mrad)" version="" />
+		<node id="11" name="Python Script" position="(-423.0, -10.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="3PW flux in 1mrad Hor. accept. angle" version="" />
+		<node id="12" name="Screen-Slits" position="(-520.0, -251.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Crotch absorber @ 4100mm" version="" />
+		<node id="13" name="POWER" position="(-343.0, 295.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xpower.OWxpower" title="Al:0.1,0.2,0.5[mm];      Cu:0.01,0.02[mm]" version="" />
+		<node id="14" name="POWER" position="(-277.0, 387.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.xpower.OWxpower" title="graphite:5,20[mm]; Pd:75um; Fe:10,50[um];" version="" />
 	</nodes>
 	<links>
 		<link enabled="false" id="0" sink_channel="Input Beam" sink_node_id="4" source_channel="Beam" source_node_id="2" />
@@ -30,25 +32,27 @@
 		<link enabled="true" id="11" sink_channel="in_object_3" sink_node_id="9" source_channel="xoppy_data" source_node_id="8" />
 		<link enabled="true" id="12" sink_channel="in_object_1" sink_node_id="9" source_channel="xoppy_data" source_node_id="1" />
 		<link enabled="true" id="13" sink_channel="in_object_2" sink_node_id="9" source_channel="Beam" source_node_id="5" />
+		<link enabled="true" id="14" sink_channel="ExchangeData" sink_node_id="13" source_channel="xoppy_data" source_node_id="1" />
+		<link enabled="true" id="15" sink_channel="ExchangeData" sink_node_id="14" source_channel="xoppy_data" source_node_id="1" />
 	</links>
 	<annotations>
-		<text font-family="Helvetica" font-size="16" id="0" rect="(-920.0, 204.0, 175.0, 42.0)">XOPPY flux</text>
-		<arrow end="(-859.9999999999998, 283.0)" fill="#C1272D" id="1" start="(-879.9999999999998, 233.0)" />
-		<arrow end="(-155.0, -275.0000000000001)" fill="#C1272D" id="2" start="(-119.0, -308.0000000000001)" />
-		<text font-family="Helvetica" font-size="16" id="3" rect="(-136.0, -360.0, 210.0, 68.0)">beam size and WB flux:
+		<text font-family="Helvetica" font-size="16" id="0" rect="(-875.0, 55.0, 175.0, 42.0)">XOPPY flux</text>
+		<arrow end="(-814.9999999999999, 133.99999999999997)" fill="#C1272D" id="1" start="(-834.9999999999999, 83.99999999999997)" />
+		<arrow end="(-39.0, -289.0000000000001)" fill="#C1272D" id="2" start="(-3.0, -322.0000000000001)" />
+		<text font-family="Helvetica" font-size="16" id="3" rect="(4.0, -360.0, 210.0, 68.0)">beam size and WB flux:
 slits partly closed</text>
-		<text font-family="Helvetica" font-size="16" id="4" rect="(-386.0, 88.0, 155.0, 31.0)">CVD and filters</text>
-		<arrow end="(-216.0, -57.00000000000001)" fill="#C1272D" id="5" start="(-171.0, -87.0)" />
-		<text font-family="Helvetica" font-size="16" id="6" rect="(-174.0, -107.0, 248.0, 34.0)">WB flux with primary slits open</text>
-		<arrow end="(-398.0, 159.00000000000003)" fill="#C1272D" id="7" start="(-355.0, 117.00000000000003)" />
-		<arrow end="(110.0, -262.0)" fill="#C1272D" id="8" start="(215.0, -327.00000000000006)" />
-		<text font-family="Helvetica" font-size="16" id="9" rect="(190.0, -397.0, 268.0, 103.0)">connect on of the two 'Sample@43m' widgets to the python script 'WB FLUX'</text>
+		<text font-family="Helvetica" font-size="16" id="4" rect="(-644.0, 396.0, 155.0, 31.0)">CVD and filters</text>
+		<arrow end="(-100.0, -71.0)" fill="#C1272D" id="5" start="(-55.0, -101.0)" />
+		<text font-family="Helvetica" font-size="16" id="6" rect="(-58.0, -121.0, 248.0, 34.0)">WB flux with primary slits open</text>
+		<arrow end="(-430.0, 364.0)" fill="#C1272D" id="7" start="(-513.9999999999999, 408.99999999999994)" />
+		<arrow end="(226.0, -276.0)" fill="#C1272D" id="8" start="(331.0, -341.00000000000006)" />
+		<text font-family="Helvetica" font-size="16" id="9" rect="(337.0, -362.0, 268.0, 103.0)">connect on of the two 'Sample@43m' widgets to the python script 'WB FLUX'</text>
 	</annotations>
 	<thumbnail />
 	<node_properties>
 		<properties format="pickle" node_id="0">gAN9cQAoWBUAAABkaXN0YW5jZV9mcm9tX3dhaXN0X3hxAUcAAAAAAAAAAFgVAAAAZGlzdGFuY2Vf
-ZnJvbV93YWlzdF96cQJHAAAAAAAAAABYBQAAAGVfbWF4cQNHQNPsAAAAAABYBQAAAGVfbWlucQRH
-QNMkAAAAAABYEAAAAGVsZWN0cm9uX2N1cnJlbnRxBUdAb0AAAAAAAFgLAAAAZW1pdHRhbmNlX3hx
+ZnJvbV93YWlzdF96cQJHAAAAAAAAAABYBQAAAGVfbWF4cQNHQMfoAAAAAABYBQAAAGVfbWlucQRH
+QMb4AAAAAABYEAAAAGVsZWN0cm9uX2N1cnJlbnRxBUdAb0AAAAAAAFgLAAAAZW1pdHRhbmNlX3hx
 Bkc++v2HVMiEPlgLAAAAZW1pdHRhbmNlX3pxB0c+kUYZLAVzW1gGAAAAZW5lcmd5cQhHQAQAAAAA
 AABYEQAAAGZpbGVfdG9fd3JpdGVfb3V0cQlLAFgQAAAAZmlsZV93aXRoX2JfdnNfeXEKWDkAAAAv
 aG9tZS9naWFudGhrL0dpdC9CRUFUU19yYXl0cmFjaW5nL09hc3lzL0J6X0FsYmFfcmV2My5kYXRx
@@ -72,7 +76,7 @@ cS1LAVgJAAAAdmlld190eXBlcS5LAHUu
 SUVMRHEDSwFYBAAAAEZJTEVxBFg5AAAAL2hvbWUvZ2lhbnRoay9HaXQvQkVBVFNfcmF5dHJhY2lu
 Zy9PYXN5cy9Cel9BbGJhX3JldjMuZGF0cQVYAQAAAEtxBkdAamAAAAAAAFgIAAAATlBFUklPRFNx
 B0sBWAcAAABOUE9JTlRTcQhN6ANYCwAAAE5UUkFKUE9JTlRTcQlLZVgPAAAAUEhPVF9FTkVSR1lf
-TUFYcQpHQO1MAAAAAABYDwAAAFBIT1RfRU5FUkdZX01JTnELR0CvQAAAAAAAWAcAAABVTEFNQkRB
+TUFYcQpHQO1MAAAAAABYDwAAAFBIT1RfRU5FUkdZX01JTnELR0BZAAAAAAAAWAcAAABVTEFNQkRB
 cQxHP+go9cKPXClYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxDWNzaXAKX3VucGlja2xlX3R5cGUK
 cQ5YDAAAAFB5UXQ1LlF0Q29yZXEPWAoAAABRQnl0ZUFycmF5cRBDQgHZ0MsAAwAAAAAAAAAAAH0A
 AAT/AAADXQAAAAAAAACiAAAE/wAAA10AAAABAAAAAAUAAAAAAAAAAKIAAAT/AAADXXERhXESh3ET
@@ -581,8 +585,8 @@ AABQdHEkWAcAAABFTDVfUk9VcSVHAAAAAAAAAABYBwAAAEVMNV9USElxJkc/4AAAAAAAAFgIAAAA
 RU5FUl9NQVhxJ0dA6GoAAAAAAFgIAAAARU5FUl9NSU5xKEdAj0AAAAAAAFgGAAAARU5FUl9OcSlL
 ZFgJAAAATkVMRU1FTlRTcSpLA1gJAAAAUExPVF9TRVRTcStLAlgGAAAAU09VUkNFcSxLAFgLAAAA
 U09VUkNFX0ZJTEVxLWgLWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cS5jc2lwCl91bnBpY2tsZV90
-eXBlCnEvWAwAAABQeVF0NS5RdENvcmVxMFgKAAAAUUJ5dGVBcnJheXExQ0IB2dDLAAMAAAAAAAAA
-AAAbAAAHfwAABDcAAAJYAAABfAAAB38AAAQ3AAAAAAIAAAAHgAAAAAAAAABAAAAHfwAABDdxMoVx
+eXBlCnEvWAwAAABQeVF0NS5RdENvcmVxMFgKAAAAUUJ5dGVBcnJheXExQ0IB2dDLAAMAAAAABS0A
+AAAbAAAKVAAAAvsAAAUtAAAAQAAAClQAAAL7AAAAAAAAAAAHgAAABS0AAABAAAAKVAAAAvtxMoVx
 M4dxNFJxNVgJAAAAdmlld190eXBlcTZLAXUu
 </properties>
 		<properties format="pickle" node_id="9">gAN9cQAoWAwAAABhdXRvX2V4ZWN1dGVxAYlYEgAAAGN1cnJlbnRTY3JpcHRJbmRleHECSwBYCQAA
@@ -953,6 +957,43 @@ AAAAdW5pdHNfaW5fdXNlceVLAFgcAAAAdXNlcl9kZWZpbmVkX2FzeW1tZXRyeV9hbmdsZXHmRwAA
 AAAAAAAAWBgAAAB1c2VyX2RlZmluZWRfYnJhZ2dfYW5nbGVx50dALHItDlYEGVgOAAAAdmVydGlj
 YWxfcXVvdGVx6EcAAAAAAAAAAFgJAAAAdmlld190eXBlcelLAlgYAAAAd3JpdGVfb3V0X2luY19y
 ZWZfYW5nbGVzcepLAHUu
+</properties>
+		<properties format="pickle" node_id="13">gAN9cQAoWAcAAABFTDFfQU5HcQFHQAgAAAAAAABYBwAAAEVMMV9ERU5xAlgBAAAAP3EDWAgAAABF
+TDFfRkxBR3EESwBYBwAAAEVMMV9GT1JxBVgCAAAAQWxxBlgHAAAARUwxX1JPVXEHRwAAAAAAAAAA
+WAcAAABFTDFfVEhJcQhHP7mZmZmZmZpYBwAAAEVMMl9BTkdxCUdARfrhR64Ue1gHAAAARUwyX0RF
+TnEKWAEAAAA/cQtYCAAAAEVMMl9GTEFHcQxLAFgHAAAARUwyX0ZPUnENWAIAAABBbHEOWAcAAABF
+TDJfUk9VcQ9HQAgAAAAAAABYBwAAAEVMMl9USElxEEc/yZmZmZmZmlgHAAAARUwzX0FOR3ERR0AI
+AAAAAAAAWAcAAABFTDNfREVOcRJoC1gIAAAARUwzX0ZMQUdxE0sAWAcAAABFTDNfRk9ScRRYAgAA
+AEFscRVYBwAAAEVMM19ST1VxFkcAAAAAAAAAAFgHAAAARUwzX1RISXEXRz/gAAAAAAAAWAcAAABF
+TDRfQU5HcRhHQAgAAAAAAABYBwAAAEVMNF9ERU5xGVgBAAAAP3EaWAgAAABFTDRfRkxBR3EbSwBY
+BwAAAEVMNF9GT1JxHFgCAAAAQ3VxHVgHAAAARUw0X1JPVXEeRwAAAAAAAAAAWAcAAABFTDRfVEhJ
+cR9HP4R64UeuFHtYBwAAAEVMNV9BTkdxIEdACAAAAAAAAFgHAAAARUw1X0RFTnEhaAtYCAAAAEVM
+NV9GTEFHcSJLAFgHAAAARUw1X0ZPUnEjWAIAAABDdXEkWAcAAABFTDVfUk9VcSVHAAAAAAAAAABY
+BwAAAEVMNV9USElxJkc/lHrhR64Ue1gIAAAARU5FUl9NQVhxJ0dA6GoAAAAAAFgIAAAARU5FUl9N
+SU5xKEdAj0AAAAAAAFgGAAAARU5FUl9OcSlLZFgJAAAATkVMRU1FTlRTcSpLBFgJAAAAUExPVF9T
+RVRTcStLAlgGAAAAU09VUkNFcSxLAFgLAAAAU09VUkNFX0ZJTEVxLWgLWBMAAABzYXZlZFdpZGdl
+dEdlb21ldHJ5cS5jc2lwCl91bnBpY2tsZV90eXBlCnEvWAwAAABQeVF0NS5RdENvcmVxMFgKAAAA
+UUJ5dGVBcnJheXExQ0IB2dDLAAMAAAAABZEAAACMAAAKuAAAA2wAAAWRAAAAsQAACrgAAANsAAAA
+AAAAAAAHgAAABZEAAACxAAAKuAAAA2xxMoVxM4dxNFJxNVgJAAAAdmlld190eXBlcTZLAXUu
+</properties>
+		<properties format="pickle" node_id="14">gAN9cQAoWAcAAABFTDFfQU5HcQFHQAgAAAAAAABYBwAAAEVMMV9ERU5xAlgGAAAAMS43ODI1cQNY
+CAAAAEVMMV9GTEFHcQRLAFgHAAAARUwxX0ZPUnEFWAEAAABDcQZYBwAAAEVMMV9ST1VxB0cAAAAA
+AAAAAFgHAAAARUwxX1RISXEIR0AUAAAAAAAAWAcAAABFTDJfQU5HcQlHQEX64UeuFHtYBwAAAEVM
+Ml9ERU5xClgGAAAAMS43ODI1cQtYCAAAAEVMMl9GTEFHcQxLAFgHAAAARUwyX0ZPUnENWAEAAABD
+cQ5YBwAAAEVMMl9ST1VxD0dACAAAAAAAAFgHAAAARUwyX1RISXEQR0A0AAAAAAAAWAcAAABFTDNf
+QU5HcRFHQAgAAAAAAABYBwAAAEVMM19ERU5xElgBAAAAP3ETWAgAAABFTDNfRkxBR3EUSwBYBwAA
+AEVMM19GT1JxFVgCAAAAUGRxFlgHAAAARUwzX1JPVXEXRwAAAAAAAAAAWAcAAABFTDNfVEhJcRhH
+P7MzMzMzMzNYBwAAAEVMNF9BTkdxGUdACAAAAAAAAFgHAAAARUw0X0RFTnEaWAEAAAA/cRtYCAAA
+AEVMNF9GTEFHcRxLAFgHAAAARUw0X0ZPUnEdWAIAAABGZXEeWAcAAABFTDRfUk9VcR9HAAAAAAAA
+AABYBwAAAEVMNF9USElxIEc/hHrhR64Ue1gHAAAARUw1X0FOR3EhR0AIAAAAAAAAWAcAAABFTDVf
+REVOcSJoE1gIAAAARUw1X0ZMQUdxI0sAWAcAAABFTDVfRk9ScSRYAgAAAEZlcSVYBwAAAEVMNV9S
+T1VxJkcAAAAAAAAAAFgHAAAARUw1X1RISXEnRz+pmZmZmZmaWAgAAABFTkVSX01BWHEoR0DoagAA
+AAAAWAgAAABFTkVSX01JTnEpR0CPQAAAAAAAWAYAAABFTkVSX05xKktkWAkAAABORUxFTUVOVFNx
+K0sEWAkAAABQTE9UX1NFVFNxLEsCWAYAAABTT1VSQ0VxLUsAWAsAAABTT1VSQ0VfRklMRXEuaBNY
+EwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxL2NzaXAKX3VucGlja2xlX3R5cGUKcTBYDAAAAFB5UXQ1
+LlF0Q29yZXExWAoAAABRQnl0ZUFycmF5cTJDQgHZ0MsAAwAAAAAGlgAAAEsAAAu9AAADKwAABpYA
+AABwAAALvQAAAysAAAAAAAAAAAeAAAAGlgAAAHAAAAu9AAADK3EzhXE0h3E1UnE2WAkAAAB2aWV3
+X3R5cGVxN0sBdS4=
 </properties>
 	</node_properties>
 </scheme>
