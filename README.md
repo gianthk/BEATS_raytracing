@@ -8,3 +8,5 @@ Start here:
 - [Notebook #2](BEATS_TDR-Chapter_07f_Optics_Raytracing-Flux_1mrad.ipynb): Flux through 1mrad compared with other tomography beamlines.
 - [Notebook #3](BEATS_TDR-Chapter_07f_Optics_Raytracing-Flux_density.ipynb): Flux density at sample position for White, Pink and monochromatic beam.
 
+[DMM folder](DMM) contains scripts to produce plots related to DMM operation such as mirror positions for given grazing, offset and DMM d-spacing or simply plots of the grazing curve and available beam height.
+![](DMM/DMM_mirrors_d2.5_E18-50.png)
