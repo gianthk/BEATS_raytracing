@@ -1,53 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="Flux density after DMM @ the sample position" title="BEATS_BL_DMM" version="2.0" working_directory="/home/gianthk/Oasys/BEATS/BEATS_BL_Oasys" workspace_units="2">
 	<nodes>
-		<node id="0" name="Wiggler" position="(-1159.0, -220.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_wiggler.Wiggler" title="BEATS 3PW" version="" />
-		<node id="1" name="Screen-Slits" position="(-568.0, -156.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="CVD_1 @ 9m; t=0.3mm" version="" />
-		<node id="2" name="WIGGLER" position="(-36.0, -21.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="BEATS 3PW" version="" />
-		<node id="3" name="Plane Mirror" position="(19.0, 245.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="MIrror for footprint" version="" />
-		<node id="4" name="Plane Mirror" position="(230.0, 244.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="second mirror for second footprint" version="" />
-		<node id="5" name="Screen-Slits" position="(135.0, -290.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Sample @ 42m" version="" />
-		<node id="6" name="Screen-Slits" position="(7.0, -350.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="CVD_2 @ 37.9m; t=0.4mm" version="" />
-		<node id="7" name="PreMLayer" position="(-829.0, -491.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_pre_mlayer.OWxsh_pre_mlayer" title="[Ru/B4C]65 d=4nm" version="" />
-		<node id="8" name="Plane Mirror" position="(-285.0, -384.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML1 @ 16.155m" version="" />
-		<node id="9" name="Plane Mirror" position="(-171.0, -357.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML2" version="" />
-		<node id="10" name="Screen-Slits" position="(-842.0, -157.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Fix mask@7.4m; (Hor.xVer.) (1x0.36 mrad)" version="" />
-		<node id="11" name="Python Script" position="(223.0, -28.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Flux density @ sample" version="" />
-		<node id="12" name="Screen-Slits" position="(-705.0, -155.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Slits_1 @ 8.68m" version="" />
-		<node id="13" name="PreRefl" position="(-1143.0, -489.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="Diamond" version="" />
-		<node id="14" name="Info" position="(379.0, -293.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
-		<node id="15" name="Screen-Slits" position="(-976.0, -156.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Crotch absorber @ 4.1m" version="" />
-		<node id="16" name="Multilayer" position="(-909.0, 152.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="[W/B4C]100 d=3.0nm" version="" />
-		<node id="17" name="Python Script" position="(-759.0, 151.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
-		<node id="18" name="Python Script" position="(-759.0, 236.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
-		<node id="19" name="Multilayer" position="(-910.0, 237.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="[Ru/B4C]65 d=4nm" version="" />
-		<node id="20" name="Python Script" position="(-871.0, 343.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
-		<node id="21" name="Multilayer" position="(-1014.0, 341.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="DMM_Si/Mo/B4C_65_d4nm" version="" />
-		<node id="22" name="Multilayer" position="(-698.0, 339.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="DMM_Si/W/B4C_100_d2.5" version="" />
-		<node id="23" name="Python Script" position="(-553.0, 340.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
-		<node id="24" name="Wiggler Radiation" position="(-1160.0, 12.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" title="BEATS 3PW - XOP" version="" />
-		<node id="25" name="Height Profile Simulator" position="(-459.0, -489.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.height_profile_simulator.OWheight_profile_simulator" title="Profile from DB" version="" />
-		<node id="26" name="Height Profile Simulator" position="(-371.0, -488.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.height_profile_simulator.OWheight_profile_simulator" title="Simulated Profile" version="" />
-		<node id="27" name="PreMLayer" position="(-951.0, -492.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_pre_mlayer.OWxsh_pre_mlayer" title="[W/B4C]100 d=3nm" version="" />
-		<node id="28" name="Plot XY" position="(-1043.0, -60.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY" version="" />
-		<node id="29" name="Histogram" position="(365.0, -389.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_histogram.Histogram" title="Histo 2" version="" />
-		<node id="30" name="Plane Mirror" position="(-333.0, -269.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML1 @ 16.155m" version="" />
-		<node id="31" name="Plane Mirror" position="(-208.0, -252.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML2" version="" />
-		<node id="32" name="Wiggler" position="(-1156.0, -129.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_wiggler.Wiggler" title="BEATS 3PW tender" version="" />
-		<node id="33" name="Wiggler Radiation" position="(-1032.0, 22.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" title="BEATS source tender" version="" />
-		<node id="34" name="Multilayer" position="(-366.0, 344.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="[W/B4C]100 d=3.0nm" version="" />
-		<node id="35" name="Python Script" position="(-230.0, 343.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
-		<node id="36" name="Screen-Slits" position="(-200.0, -154.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="CVD_2 @ 37.9m; t=0.4mm" version="" />
-		<node id="37" name="PreRefl" position="(-1049.0, -490.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="Alluminum" version="" />
-		<node id="38" name="Screen-Slits" position="(-433.0, -157.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="attenuator @ 11m" version="" />
-		<node id="39" name="Plot XY" position="(-1010.0, -233.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY" version="" />
-		<node id="40" name="Plot XY" position="(363.0, -467.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot 2" version="" />
-		<node id="41" name="DABAM Height Profile" position="(-606.0, -487.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.dabam_height_profile.OWdabam_height_profile" title="DABAM Height Profile" version="" />
-		<node id="42" name="Power3Dcomponent" position="(-905.0, 21.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="Power3Dcomponent" version="" />
-		<node id="43" name="Source Seed Loop Point" position="(-379.0, 1.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.loop_management.ow_seed_node_point.SourceSeedLoopPoint" title="Source Seed Loop Point" version="" />
-		<node id="44" name="Histogram" position="(231.0, -400.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_histogram.Histogram" title="Histo 1" version="" />
-		<node id="45" name="Plot XY" position="(229.0, -478.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot 1" version="" />
-		<node id="46" name="Plot XY" position="(-418.0, -301.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot@attenuator" version="" />
+		<node id="0" name="Wiggler" position="(-1168.0, 119.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_wiggler.Wiggler" title="BEATS 3PW" version="" />
+		<node id="1" name="Screen-Slits" position="(-585.0, 58.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="CVD_1 @ 9m; t=0.3mm" version="" />
+		<node id="2" name="WIGGLER" position="(101.0, 321.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" title="BEATS 3PW" version="" />
+		<node id="3" name="Plane Mirror" position="(-407.0, 385.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="MIrror for footprint" version="" />
+		<node id="4" name="Plane Mirror" position="(-196.0, 384.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="second mirror for second footprint" version="" />
+		<node id="5" name="Screen-Slits" position="(73.0, 105.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Sample @ 42m" version="" />
+		<node id="6" name="Screen-Slits" position="(-115.0, -92.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="CVD_2 @ 37.9m; t=0.4mm" version="" />
+		<node id="7" name="PreMLayer" position="(-1005.0, -171.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_pre_mlayer.OWxsh_pre_mlayer" title="[Ru/B4C]65 d=4nm" version="" />
+		<node id="8" name="Plane Mirror" position="(-321.0, -192.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML1 @ 16.155m" version="" />
+		<node id="9" name="Plane Mirror" position="(-207.0, -165.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML2" version="" />
+		<node id="10" name="Screen-Slits" position="(-859.0, 57.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Fix mask@7.4m; (Hor.xVer.) (1x0.36 mrad)" version="" />
+		<node id="11" name="Python Script" position="(291.0, 316.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Flux density @ sample" version="" />
+		<node id="12" name="Screen-Slits" position="(-722.0, 59.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Slits_1 @ 8.68m" version="" />
+		<node id="13" name="PreRefl" position="(-1124.0, -262.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="Diamond" version="" />
+		<node id="14" name="Info" position="(317.0, 132.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
+		<node id="15" name="Screen-Slits" position="(-993.0, 58.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="Crotch absorber @ 4.1m" version="" />
+		<node id="16" name="Multilayer" position="(-672.0, -182.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="[W/B4C]100 d=3.0nm" version="" />
+		<node id="17" name="Python Script" position="(-522.0, -183.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
+		<node id="18" name="Python Script" position="(-522.0, -98.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
+		<node id="19" name="Multilayer" position="(-673.0, -97.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="[Ru/B4C]65 d=4nm" version="" />
+		<node id="20" name="Python Script" position="(297.0, -366.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
+		<node id="21" name="Multilayer" position="(154.0, -368.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="DMM_Si/Mo/B4C_65_d4nm" version="" />
+		<node id="22" name="Multilayer" position="(148.0, -279.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="DMM_Si/W/B4C_100_d2.5" version="" />
+		<node id="23" name="Python Script" position="(293.0, -278.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
+		<node id="24" name="Wiggler Radiation" position="(-1185.0, 406.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" title="BEATS 3PW - XOP" version="" />
+		<node id="25" name="Height Profile Simulator" position="(-103.0, -329.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.height_profile_simulator.OWheight_profile_simulator" title="Profile from DB" version="" />
+		<node id="26" name="Height Profile Simulator" position="(-15.0, -328.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.height_profile_simulator.OWheight_profile_simulator" title="Simulated Profile" version="" />
+		<node id="27" name="PreMLayer" position="(-1126.0, -172.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_pre_mlayer.OWxsh_pre_mlayer" title="[W/B4C]100 d=3nm" version="" />
+		<node id="28" name="Plot XY" position="(-1030.0, 231.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY" version="" />
+		<node id="29" name="Histogram" position="(303.0, 36.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_histogram.Histogram" title="Histo 2" version="" />
+		<node id="30" name="Plane Mirror" position="(-358.0, -97.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML1 @ 16.155m" version="" />
+		<node id="31" name="Plane Mirror" position="(-244.0, -76.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_plane_mirror.PlaneMirror" title="ML2" version="" />
+		<node id="32" name="Wiggler" position="(-1174.0, 232.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.sources.ow_wiggler.Wiggler" title="BEATS 3PW tender" version="" />
+		<node id="33" name="Wiggler Radiation" position="(-1022.0, 403.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" title="BEATS source tender" version="" />
+		<node id="34" name="Multilayer" position="(153.0, -196.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.multilayer.OWMlultilayer" title="[W/B4C]100 d=3.0nm" version="" />
+		<node id="35" name="Python Script" position="(289.0, -197.0)" project_name="OASYS1" qualified_name="oasys.widgets.tools.ow_python_script.OWPythonScript" title="Refl Max; BW" version="" />
+		<node id="36" name="Screen-Slits" position="(-97.0, 54.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="CVD_2 @ 37.9m; t=0.4mm" version="" />
+		<node id="37" name="PreRefl" position="(-1053.0, -261.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="Alluminum" version="" />
+		<node id="38" name="Screen-Slits" position="(-450.0, 57.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" title="attenuator @ 11m" version="" />
+		<node id="39" name="Plot XY" position="(-1066.0, 10.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot XY" version="" />
+		<node id="40" name="Plot XY" position="(301.0, -42.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot 2" version="" />
+		<node id="41" name="DABAM Height Profile" position="(-213.0, -331.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.dabam_height_profile.OWdabam_height_profile" title="DABAM Height Profile" version="" />
+		<node id="42" name="Power3Dcomponent" position="(-901.0, 402.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="Power3Dcomponent" version="" />
+		<node id="43" name="Source Seed Loop Point" position="(-541.0, 259.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.loop_management.ow_seed_node_point.SourceSeedLoopPoint" title="Source Seed Loop Point" version="" />
+		<node id="44" name="Histogram" position="(206.0, 26.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_histogram.Histogram" title="Histo 1" version="" />
+		<node id="45" name="Plot XY" position="(204.0, -52.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot 1" version="" />
+		<node id="46" name="Plot XY" position="(-340.0, 98.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot@attenuator" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Input Beam" sink_node_id="4" source_channel="Beam" source_node_id="3" />
@@ -73,30 +73,33 @@
 		<link enabled="true" id="20" sink_channel="Input Beam" sink_node_id="44" source_channel="Beam" source_node_id="5" />
 		<link enabled="true" id="21" sink_channel="Trigger" sink_node_id="0" source_channel="Trigger" source_node_id="43" />
 		<link enabled="true" id="22" sink_channel="Input Beam" sink_node_id="15" source_channel="Beam" source_node_id="0" />
-		<link enabled="true" id="23" sink_channel="Trigger" sink_node_id="43" source_channel="Trigger" source_node_id="38" />
+		<link enabled="true" id="23" sink_channel="Input Beam" sink_node_id="36" source_channel="Beam" source_node_id="38" />
+		<link enabled="true" id="24" sink_channel="Trigger" sink_node_id="43" source_channel="Trigger" source_node_id="5" />
 	</links>
 	<annotations>
-		<text font-family="Helvetica" font-size="16" id="0" rect="(-287.0, -508.0, 265.0, 87.0)">DMM: 
+		<text font-family="Helvetica" font-size="16" id="0" rect="(-699.0, -278.0, 265.0, 87.0)">THE BEATS DMM: 
 STRIPE 1: [W/B4C]100 d=3nm
 STRIPE 2: [Ru/B4C]65 d=4nm</text>
-		<text font-family="Helvetica" font-size="16" id="1" rect="(-296.0, 224.0, 262.0, 60.0)">Footprint calculations 
+		<text font-family="Helvetica" font-size="16" id="1" rect="(-722.0, 364.0, 262.0, 60.0)">Footprint calculations 
 (connect to CVD window 1)</text>
-		<text font-family="Helvetica" font-size="16" id="2" rect="(-103.0, -134.0, 175.0, 42.0)">XOP flux</text>
-		<arrow end="(-42.99999999999986, -54.99999999999996)" fill="#C1272D" id="3" start="(-62.99999999999986, -104.99999999999996)" />
-		<arrow end="(-23.000000000000085, 240.00000000000006)" fill="#C1272D" id="4" start="(-132.00000000000009, 238.00000000000006)" />
-		<arrow end="(-946.0, 108.00000000000007)" fill="#C1272D" id="5" start="(-1063.0, 106.00000000000007)" />
-		<text font-family="Helvetica" font-size="16" id="6" rect="(-932.0, 93.0, 223.0, 49.0)">BEATS DMM</text>
-		<text font-family="Helvetica" font-size="16" id="7" rect="(-37.0, 69.0, 181.0, 69.0)">Flux density @ sample
+		<text font-family="Helvetica" font-size="16" id="2" rect="(34.0, 208.0, 175.0, 42.0)">XOP flux</text>
+		<arrow end="(94.00000000000014, 287.0)" fill="#C1272D" id="3" start="(74.00000000000014, 237.00000000000003)" />
+		<arrow end="(-449.0000000000001, 380.00000000000006)" fill="#C1272D" id="4" start="(-558.0000000000001, 378.00000000000006)" />
+		<arrow end="(-709.0, -260.99999999999994)" fill="#C1272D" id="5" start="(-826.0, -262.99999999999994)" />
+		<text font-family="Helvetica" font-size="16" id="6" rect="(31.0, 413.0, 181.0, 69.0)">Flux density @ sample
 - with DMM
 - slits_1 closed</text>
-		<arrow end="(197.99999999999994, 27.0)" fill="#C1272D" id="8" start="(141.0, 82.0)" />
-		<text font-family="Helvetica" font-size="16" id="9" rect="(-1229.0, -409.0, 628.0, 161.0)">Flux density after DMM @ the sample position:
+		<arrow end="(265.99999999999983, 371.0)" fill="#C1272D" id="7" start="(208.9999999999999, 426.0)" />
+		<text font-family="Helvetica" font-size="16" id="8" rect="(-1226.0, -443.0, 861.0, 161.0)">Flux density calculation @ the sample position with DMM:
 - Run both the Shadow tree and XOP source before running the Python script
-- Energies (both in the Shadow source and in the Python script) and grazing angles of the multilayers must be updated for each run
-- The energy bandwidth of the source must include the BW of the DMM (e.g. use a 4% source bandwidth for the [W/B4C]100 DMM (2@ BW))
-- Divide the flux through the aperture given by the Python script by the effective pinhole size (10mm x 4mm here)</text>
-		<text font-family="Helvetica" font-size="16" id="10" rect="(-1026.0, 136.0, 79.0, 31.0)">stripe_1</text>
-		<text font-family="Helvetica" font-size="16" id="11" rect="(-1023.0, 223.0, 72.0, 31.0)">stripe_2</text>
+- Energies (for both the Shadow 3PW source and in the Python script) and grazing angles of the multilayers must be updated at each run (can prepare a python loop instead)
+- The dE/E of the 3PW source must include the BW of the DMM (e.g. use &gt; 4% source dE/E for a DMM with 3% BW
+- Set an aperture at the sample position (e.g. 5mm x 2mm) and divide the flux through the aperture given by the Python script by the aperture size to get the flux in 1mm^2</text>
+		<text font-family="Helvetica" font-size="16" id="9" rect="(-789.0, -198.0, 79.0, 31.0)">stripe_1</text>
+		<text font-family="Helvetica" font-size="16" id="10" rect="(-786.0, -111.0, 72.0, 31.0)">stripe_2</text>
+		<text font-family="Helvetica" font-size="16" id="11" rect="(164.0, -426.0, 150.0, 26.0)">more DMM stuff</text>
+		<text font-family="Helvetica" font-size="16" id="12" rect="(-198.0, -390.0, 190.0, 49.0)">mirror profile simulator</text>
+		<text font-family="Helvetica" font-size="16" id="13" rect="(-1209.0, 353.0, 210.0, 7.0)">XOP sources</text>
 	</annotations>
 	<thumbnail />
 	<node_properties>
@@ -116,7 +119,7 @@ IKEHAFgVAAAAb3B0aW1pemVfc291cmNlX2NvbWJvcRpLAFgKAAAAcGxvdF9ncmFwaHEbSwFYEwAA
 AHNhdmVkV2lkZ2V0R2VvbWV0cnlxHGNzaXAKX3VucGlja2xlX3R5cGUKcR1YDAAAAFB5UXQ1LlF0
 Q29yZXEeWAoAAABRQnl0ZUFycmF5cR9DQgHZ0MsAAwAAAAABLAAAALAAAAZTAAADkAAAASwAAADV
 AAAGUwAAA5AAAAAAAAAAAAeAAAABLAAAANUAAAZTAAADkHEghXEhh3EiUnEjWAQAAABzZWVkcSRL
-D1gQAAAAc2hpZnRfYmV0YXhfZmxhZ3ElSwRYEQAAAHNoaWZ0X2JldGF4X3ZhbHVlcSZHAAAAAAAA
+AFgQAAAAc2hpZnRfYmV0YXhfZmxhZ3ElSwRYEQAAAHNoaWZ0X2JldGF4X3ZhbHVlcSZHAAAAAAAA
 AABYDAAAAHNoaWZ0X3hfZmxhZ3EnSwJYDQAAAHNoaWZ0X3hfdmFsdWVxKEcAAAAAAAAAAFgHAAAA
 c2lnbWFfeHEpRz/qQ/5ckdFOWAcAAABzaWdtYV96cSpHP40U47zTWoZYDQAAAHNsaXRfZGlzdGFu
 Y2VxK0dAj0AAAAAAAFgKAAAAdHlwZV9jb21ib3EsSwFYFAAAAHVzZV9lbWl0dGFuY2VzX2NvbWJv
@@ -597,7 +600,7 @@ bGVfbXJhZHG8RwAAAAAAAAAAWBEAAAByZWZsZWN0aXZpdHlfdHlwZXG9SwBYIAAAAHJlZnJhY3Rp
 dmVfaW5kZXhfaW5faW1hZ2VfbWVkaXVtcb5HAAAAAAAAAABYIQAAAHJlZnJhY3RpdmVfaW5kZXhf
 aW5fb2JqZWN0X21lZGl1bXG/RwAAAAAAAAAAWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5ccBjc2lw
 Cl91bnBpY2tsZV90eXBlCnHBWAwAAABQeVF0NS5RdENvcmVxwlgKAAAAUUJ5dGVBcnJheXHDQ0IB
-2dDLAAMAAAAAASwAAACwAAAGUwAAA5AAAAEsAAAA1QAABlMAAAOQAAAAAAAAAAAHgAAAASwAAADV
+2dDLAAMAAAAAASwAAADVAAAGUwAAA5AAAAEsAAAA1QAABlMAAAOQAAAAAAAAAAAHgAAAASwAAADV
 AAAGUwAAA5BxxIVxxYdxxlJxx1gPAAAAc2VlZF9mb3JfbW9zYWljcchKi8buYFgRAAAAc2xpdF9j
 ZW50ZXJfeGF4aXNxyUcAAAAAAAAAAFgRAAAAc2xpdF9jZW50ZXJfemF4aXNxykcAAAAAAAAAAFgR
 AAAAc2xpdF9oZWlnaHRfemF4aXNxy0dAEAAAAAAAAFgQAAAAc2xpdF93aWR0aF94YXhpc3HMR0Ak
@@ -2066,7 +2069,7 @@ bmV0aWNfcmFkaXVzcRpHQCQAAAAAAABYDQAAAGg1X2VudHJ5X25hbWVxG1gPAAAAWE9QUFlfUkFE
 SUFUSU9OcRxYBwAAAGg1X2ZpbGVxHVgUAAAAd2lnZ2xlcl9yYWRpYXRpb24uaDVxHlgNAAAAaDVf
 aW5pdGlhbGl6ZXEfiFgNAAAAaDVfcGFyYW1ldGVyc3EgTlgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRy
 eXEhY3NpcApfdW5waWNrbGVfdHlwZQpxIlgMAAAAUHlRdDUuUXRDb3JlcSNYCgAAAFFCeXRlQXJy
-YXlxJENCAdnQywADAAAAAAEsAAAAsAAABlMAAAOQAAABLAAAANUAAAZTAAADkAAAAAAAAAAAB4AA
+YXlxJENCAdnQywADAAAAAAEsAAAA1QAABlMAAAOQAAABLAAAANUAAAZTAAADkAAAAAAAAAAAB4AA
 AAEsAAAA1QAABlMAAAOQcSWFcSaHcSdScShYCQAAAHZpZXdfdHlwZXEpSwF1Lg==
 </properties>
 		<properties format="pickle" node_id="34">gAN9cQAoWAkAAABERU5TSVRZX0VxAVgBAAAAP3ECWAkAAABERU5TSVRZX09xA1gEAAAAMi41MnEE
@@ -2383,7 +2386,7 @@ AFgQAAAAaXNfYXV0b21hdGljX3J1bnEJiFgUAAAAaXNfY29udmVyc2lvbl9hY3RpdmVxCksBWAsA
 AABrZWVwX3Jlc3VsdHELSwFYDgAAAG51bWJlcl9vZl9iaW5zcQxLyFgQAAAAbnVtYmVyX29mX2Jp
 bnNfdnENS8hYBAAAAHJheXNxDksBWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQ9jc2lwCl91bnBp
 Y2tsZV90eXBlCnEQWAwAAABQeVF0NS5RdENvcmVxEVgKAAAAUUJ5dGVBcnJheXESQ0IB2dDLAAMA
-AAAAASwAAACyAAAGUwAAA5IAAAEsAAAA1wAABlMAAAOSAAAAAAAAAAAHgAAAASwAAADXAAAGUwAA
+AAAAASwAAADXAAAGUwAAA5IAAAEsAAAA1wAABlMAAAOSAAAAAAAAAAAHgAAAASwAAADXAAAGUwAA
 A5JxE4VxFIdxFVJxFlgFAAAAdGl0bGVxF1gFAAAAIFgsIFpxGFgTAAAAd2VpZ2h0X2NvbHVtbl9p
 bmRleHEZSxdYDgAAAHhfY29sdW1uX2luZGV4cRpLAFgHAAAAeF9yYW5nZXEbSwBYCwAAAHhfcmFu
 Z2VfbWF4cRxHQMOIAAAAAABYCwAAAHhfcmFuZ2VfbWlucR1HwMOIAAAAAABYDgAAAHlfY29sdW1u
@@ -2440,9 +2443,9 @@ cmVxGVgKAAAAUUJ5dGVBcnJheXEaQ0IB2dDLAAMAAAAAAGAAAAAbAAAFhwAAAvsAAABgAAAAQAAA
 BYcAAAL7AAAAAAAAAAAHgAAAAGAAAABAAAAFhwAAAvtxG4VxHIdxHVJxHlgJAAAAdmlld190eXBl
 cR9LAXUu
 </properties>
-		<properties format="pickle" node_id="43">gAN9cQAoWBUAAABudW1iZXJfb2ZfbmV3X29iamVjdHNxAUsPWBMAAABzYXZlZFdpZGdldEdlb21l
+		<properties format="pickle" node_id="43">gAN9cQAoWBUAAABudW1iZXJfb2ZfbmV3X29iamVjdHNxAUsIWBMAAABzYXZlZFdpZGdldEdlb21l
 dHJ5cQJjc2lwCl91bnBpY2tsZV90eXBlCnEDWAwAAABQeVF0NS5RdENvcmVxBFgKAAAAUUJ5dGVB
-cnJheXEFQ0IB2dDLAAMAAAAAAu4AAAFkAAAEfQAAAngAAALuAAABiQAABH0AAAJ4AAAAAAAAAAAH
+cnJheXEFQ0IB2dDLAAMAAAAAAu4AAAGJAAAEfQAAAngAAALuAAABiQAABH0AAAJ4AAAAAAAAAAAH
 gAAAAu4AAAGJAAAEfQAAAnhxBoVxB4dxCFJxCVgOAAAAc2VlZF9pbmNyZW1lbnRxCksBdS4=
 </properties>
 		<properties format="pickle" node_id="44">gAN9cQAoWAgAAABhdXRvc2F2ZXEBSwBYEgAAAGF1dG9zYXZlX2ZpbGVfbmFtZXECWBwAAABhdXRv
