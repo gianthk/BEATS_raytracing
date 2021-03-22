@@ -64,13 +64,14 @@
 		<node id="60" name="Plot XY" position="(-60.0, -96.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="beam@CVD2" version="" />
 		<node id="61" name="Plot XY" position="(125.0, 33.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="snapshot" version="" />
 		<node id="62" name="PreRefl" position="(-1276.0, -193.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.preprocessor.xsh_prerefl.OWxsh_prerefl" title="GlassyCarbon" version="" />
-		<node id="63" name="Power3Dcomponent" position="(-1004.0, 528.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="DMM mirror1" version="" />
+		<node id="63" name="Power3Dcomponent" position="(-999.0, 538.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="DMM mirror1" version="" />
 		<node id="64" name="Plot XY" position="(-266.0, 326.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_plot_xy.PlotXY" title="Plot@attenuator" version="" />
 		<node id="65" name="Info" position="(-186.0, 286.0)" project_name="OASYS1-ShadowOui" qualified_name="orangecontrib.shadow.widgets.plots.ow_info.Info" title="Info" version="" />
 		<node id="66" name="Power3Dcomponent" position="(-912.0, 519.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="CVD filter" version="" />
 		<node id="67" name="Power3Dcomponent" position="(-943.0, 449.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="filter-C" version="" />
 		<node id="68" name="Power3Dcomponent" position="(-853.0, 447.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="filter-Cu" version="" />
 		<node id="69" name="Power3Dcomponent" position="(-775.0, 449.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="filter-Mo" version="" />
+		<node id="70" name="Power3Dcomponent" position="(-1021.0, 385.0)" project_name="OASYS1-XOPPY" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" title="WB_blocker" version="" />
 	</nodes>
 	<links>
 		<link enabled="false" id="0" sink_channel="Input Beam" sink_node_id="4" source_channel="Beam" source_node_id="3" />
@@ -112,6 +113,7 @@
 		<link enabled="false" id="36" sink_channel="ExchangeData" sink_node_id="67" source_channel="xoppy_data" source_node_id="35" />
 		<link enabled="true" id="37" sink_channel="ExchangeData" sink_node_id="68" source_channel="xoppy_data" source_node_id="67" />
 		<link enabled="true" id="38" sink_channel="ExchangeData" sink_node_id="69" source_channel="xoppy_data" source_node_id="68" />
+		<link enabled="true" id="39" sink_channel="ExchangeData" sink_node_id="70" source_channel="xoppy_data" source_node_id="35" />
 	</links>
 	<annotations>
 		<text font-family="Helvetica" font-size="16" id="0" rect="(-720.0, -239.0, 265.0, 87.0)">THE BEATS DMM: 
@@ -2276,7 +2278,7 @@ Z2VfbWF4cRxHQNhqAAAAAABYCwAAAHhfcmFuZ2VfbWlucR1HwNhqAAAAAABYDgAAAHlfY29sdW1u
 X2luZGV4cR5LAlgHAAAAeV9yYW5nZXEfSwBYCwAAAHlfcmFuZ2VfbWF4cSBHQL9AAAAAAABYCwAA
 AHlfcmFuZ2VfbWlucSFHwL9AAAAAAAB1Lg==
 </properties>
-		<properties format="pickle" node_id="35">gAN9cQAoWAsAAABDT05WT0xVVElPTnEBSwFYCAAAAERJU1RBTkNFcQJHQEWAAAAAAABYDwAAAEVM
+		<properties format="pickle" node_id="35">gAN9cQAoWAsAAABDT05WT0xVVElPTnEBSwFYCAAAAERJU1RBTkNFcQJHQDB1wo9cKPZYDwAAAEVM
 RUNUUk9OQ1VSUkVOVHEDRz/ZmZmZmZmaWA4AAABFTEVDVFJPTkVORVJHWXEER0AEAAAAAAAAWAUA
 AABGSUVMRHEFSwFYBAAAAEZJTEVxBlicAAAAL2hvbWUvZ2lhbnRoay9PYXN5cy9CRUFUUy9CRUFU
 U19CTF9PYXN5cy8zUFdfb2ZmZXIvMjA1OF8tX2ZpbmFsX21hZ25ldGljX2Rlc2lnbi8yMDU4XzNQ
@@ -2284,7 +2286,7 @@ VyBGaWVsZCBhbmQgRmllbGRJbnRlZ3JhbCAtIHJhdyBkYXRhL0ZsZFByb2ZpbGVfU1BFQ1RSQV9S
 MDZfZzExLjAuZGF0cQdYDAAAAEg1X0ZJTEVfRFVNUHEISwBYCwAAAEhTTElUUE9JTlRTcQlN6ANY
 AgAAAEtWcQpHQDZqfvnbItFYCAAAAE5QRVJJT0RTcQtHQEKAAAAAAABYCwAAAE5UUkFKUE9JTlRT
 cQxN9QFYDAAAAFBBU1NFUEFSVE9VVHENR0AIAAAAAAAAWAgAAABQRVJJT0RJRHEORz++uFHrhR64
-WA8AAABQSE9UT05FTkVSR1lNQVhxD0dA8RcAAAAAAFgPAAAAUEhPVE9ORU5FUkdZTUlOcRBHQMOI
+WA8AAABQSE9UT05FTkVSR1lNQVhxD0dA6GoAAAAAAFgPAAAAUEhPVE9ORU5FUkdZTUlOcRBHQI9A
 AAAAAABYEgAAAFBIT1RPTkVORVJHWVBPSU5UU3ERSxRYDAAAAFBPTEFSSVpBVElPTnESSwBYEAAA
 AFNISUZUX0JFVEFYX0ZMQUdxE0sEWBEAAABTSElGVF9CRVRBWF9WQUxVRXEURwAAAAAAAAAAWAwA
 AABTSElGVF9YX0ZMQUdxFUsAWA0AAABTSElGVF9YX1ZBTFVFcRZHAAAAAAAAAABYCwAAAFZTTElU
@@ -3453,6 +3455,19 @@ AAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEXY3NpcApfdW5waWNrbGVfdHlwZQpxGFgMAAAAUHlRdDUu
 UXRDb3JlcRlYCgAAAFFCeXRlQXJyYXlxGkNCAdnQywADAAAAAAEsAAAAsAAABlMAAAOQAAABLAAA
 ANUAAAZTAAADkAAAAAAAAAAAB4AAAAEsAAAA1QAABlMAAAOQcRuFcRyHcR1ScR5YCQAAAHZpZXdf
 dHlwZXEfSwF1Lg==
+</properties>
+		<properties format="pickle" node_id="70">gAN9cQAoWAcAAABFTDFfQU5HcQFHQAj4hK/Slg9YBwAAAEVMMV9ERUZxAksBWAcAAABFTDFfREVO
+cQNYAQAAAD9xBFgIAAAARUwxX0ZMQUdxBUsCWAcAAABFTDFfRk9ScQZYAgAAAEN1cQdYCAAAAEVM
+MV9IR0FQcQhHQD2zMzMzMzNYCAAAAEVMMV9ITUFHcQlHP/AAAAAAAABYCAAAAEVMMV9IUk9UcQpH
+AAAAAAAAAABYBwAAAEVMMV9ST1VxC0c/09cKPXCj11gHAAAARUwxX1RISXEMR0BZAAAAAAAAWAgA
+AABFTDFfVkdBUHENR0AaZmZmZmZmWAgAAABFTDFfVk1BR3EORz/wAAAAAAAAWAgAAABFTDFfVlJP
+VHEPRwAAAAAAAAAAWAkAAABGSUxFX0RVTVBxEEsAWAkAAABGSUxFX05BTUVxEVgTAAAAcG93ZXIz
+RGNvbXBvbmVudC5oNXESWA8AAABJTlBVVF9CRUFNX0ZJTEVxE1gWAAAAdW5kdWxhdG9yX3JhZGlh
+dGlvbi5oNXEUWA8AAABJTlBVVF9CRUFNX0ZST01xFUsAWAkAAABQTE9UX1NFVFNxFksDWBMAAABz
+YXZlZFdpZGdldEdlb21ldHJ5cRdjc2lwCl91bnBpY2tsZV90eXBlCnEYWAwAAABQeVF0NS5RdENv
+cmVxGVgKAAAAUUJ5dGVBcnJheXEaQ0IB2dDLAAMAAAAAAagAAATHAAAGzwAAB6cAAAGoAAAE7AAA
+Bs8AAAenAAAAAAAAAAAHgAAAAagAAATsAAAGzwAAB6dxG4VxHIdxHVJxHlgJAAAAdmlld190eXBl
+cR9LAXUu
 </properties>
 	</node_properties>
 </scheme>
