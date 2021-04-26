@@ -5,6 +5,8 @@
 \usepackage{makecell}
 \renewcommand\theadalign{cc}
 \renewcommand\theadfont{\bfseries}
+\usepackage{subcaption}
+\usepackage{float}
 
 \title{Report on ML slope error}
 \author{BEATS - BEAmline for Tomography at SESAME}
@@ -35,20 +37,20 @@ A mirror length of 500mm is considered. Beam profiles at the sample position are
 \begingroup
 \color{black}
 \tableofcontents
-\listoffigures
-\listoftables
+% \listoffigures
+% \listoftables
 \endgroup
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{sections/introduction}
+% \include{sections/introduction}
 \input{sections/resources}
 \input{sections/layout}
 \include{sections/beamline_components}
 
 \include{sections/ML1}
 
-\bibliography{references}
-\bibliographystyle{plain}
+% \bibliography{references}
+% \bibliographystyle{plain}
 
 \end{document}
