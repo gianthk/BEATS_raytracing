@@ -79,6 +79,8 @@ def main():
 
     # for all files in list
     for file in files:
+        if os.path.splitext(file)[0][-2:] == '_2':
+            continue
 
         if isDirectory:
             filename_out = os.path.splitext(file)[0] + ".csv"
@@ -98,6 +100,14 @@ def main():
         grp = sf["xy_plots"]
         dataset = grp["last_plot"]
         image = np.transpose(dataset["23: Total Intensity = |Eσ|² + |Eπ|²"][:,:])
+
+        # if a second file with more rays exists load it and sum the intensities
+        if os.path.isfile(os.path.splitext(file)[0] + '_2.hdf5'):
+            sf2 = silx.io.open(os.path.splitext(file)[0] + '_2.hdf5')
+            grp2 = sf2["xy_plots"]
+            dataset2 = grp2["last_plot"]
+            image = image + np.transpose(dataset2["23: Total Intensity = |Eσ|² + |Eπ|²"][:, :])
+
         
         coors = sf["coordinates"]
 
