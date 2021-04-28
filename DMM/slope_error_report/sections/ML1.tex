@@ -1,8 +1,8 @@
 \section{Double Multilayer Monochromator (DMM)}
-\subsection{Overview}
-
+\vspace*{-\baselineskip}
 \begin{center}
-\begin{table}
+\begin{table} [ht]
+\small
 \begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
 \hline
 Deflection & Vertical \\
@@ -23,22 +23,51 @@ Supplier & CINEL Strumenti Scientifici S.r.l. \\
 \end{table}
 \end{center}
 
-\begin{figure}[ht]
+\setlength{\belowcaptionskip}{-15pt}
+\vspace*{-\baselineskip}
+
+\begin{figure} [!ht]
 \centering
-\includegraphics[width=1.0\textwidth]{./../figures/operation/DMM_mirrors_d3_E45_gr0.263_offset4.68.png}
-\caption{\label{fig:DMM_mirrors_45keV} Mirrors position for d-spacing of 3 nm and 45 keV energy. Grazing angle: 0.263 deg. Offset: 4.68 mm.}
+\includegraphics[width=0.9\textwidth]{./../figures/operation/DMM_mirrors_d3_E45_gr0.263_offset4.68.png}
+\caption{\label{fig:DMM_mirrors_45keV} d-spacing: 3 nm; E: 45 keV; Grazing: 0.263 deg; offset: 4.68 mm.}
 \end{figure}
 
-% \subsection{Input beam}
-% A beam snapshot at 15.165 m from source is shown in Figure \ref{fig:snapshot_ML1}.
-\begin{figure}[ht]
+\setlength{\belowcaptionskip}{-15pt}
+\vspace*{-\baselineskip}
+
+\begin{figure} [!ht]
 \centering
 \includegraphics[width=0.8\textwidth]{./../../beam_snapshots/WB_snapshot_15.165.png}
 \caption{\label{fig:snapshot_ML1} White beam snapshot at 15.165 m from source (center position of ML1).}
 \end{figure}
+\setlength{\belowcaptionskip}{-15pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
+\subsection{Substrates}
+The ML length was increased to 500 mm. A drawing of the substrate size proposed by CINEL is attached. The substrate size and optical quality (tentative) are reported in Table \ref{tab:substrates}.
+
+\begin{center}
+\begin{table} [ht]
+\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
+\hline
+Substrate dimension & 500 mm × 70 mm × 60 mm \\
+ & (see drawing attached) \\
+\hline
+Coated area & 500 mm × 25 mm (2 stripes) \\
+\hline
+Surface roughness & $< 0.3$ nm rms \\
+\hline
+Slope error along Z & $\leq 0.3$ $\mu rad$ rms \\
+\hline
+Slope error along X & $< 20$ $\mu rad$ rms \\
+\hline
+\end{tabular}
+\caption{\label{tab:substrates} BEATS DMM substrates.}
+\end{table}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{ML coatings}
 Following the increase in ML length to 500 mm the d-spacing of the high-energy stripe is changed back from 2.5 nm to 3.0 nm. This gives approx. +50\% int. reflectivity (dE/E increases from 2.3\% to 3.2\%). Thanks to the increased mirror length the whole vertical beam is intercepted even at min. grazing. Coating specs of the two ML stripes are given in Table \ref{tab:coatings}.
 \begin{center}
@@ -64,27 +93,7 @@ Theta (Bragg angle) [deg] & 0.23 – 0.59 & 0.41 - 1.00 \\
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Substrates}
-The ML length was increased to 500 mm. A drawing of the substrate size proposed by CINEL is attached.
-
-\begin{center}
-\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
-\hline
-Substrate dimension & 500 mm × 70 mm × 60 mm \\
- & (see drawing attached) \\
-\hline
-Coated area & 500 mm × 25 mm (2 stripes) \\
-\hline
-Surface roughness & $< 0.3$ nm rms \\
-\hline
-Slope error along Z & $\leq 0.3$ $\mu rad$ rms \\
-\hline
-Slope error along X & $< 20$ $\mu rad$ rms \\
-\hline
-\end{tabular}
-\end{center}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
 \input{sections/slope_error}
 % \clearpage
 % \input{sections/slope_errorID19}
