@@ -193,6 +193,7 @@
      & & \\
         \begin{minipage}{0.3\textwidth}
             \@DocAuthors
+            % \@DocMail
         \end{minipage}
      & 
         \begin{minipage}{0.3\textwidth} 
@@ -249,6 +250,11 @@
 {
   \def\@DocAuthors{#1}
 }
+% \def\@DocMail{}
+% \newcommand{\DocMail}[1]%
+% {
+%  \def\@DocMail{#1}
+% }
 \def\@DocCheckedBy{}
 \newcommand{\DocCheckedBy}[1]%
 {
