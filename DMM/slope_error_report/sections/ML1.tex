@@ -1,4 +1,32 @@
-\section{Multilayer mirror 1}
+\section{Double Multilayer Monochromator (DMM)}
+\subsection{Overview}
+
+\begin{center}
+\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
+\hline
+Deflection & Vertical \\
+Distance from source (1st ML) & 15.165 m \\
+Beamline aperture & 1.8 mrad × 0.4 mrad (Hor. × Ver.) \\
+Beam size @ 1st mirror & 29 mm × 6 mm (Hor. × Ver.) \\
+Working energy & 8 – 50 [keV] \\
+ML length & 500 mm \\
+Distance between MLs & 510 mm \\
+Offset (variable) & Min. 4.2 – Max. 16.0 [mm] \\
+Theta (Bragg angle) & -0.5 to +2.5 [deg] \\
+Bragg resolution & 0.5 µrad \\
+Max. power on 1st mirror & 133 W \\
+Supplier & CINEL Strumenti Scientifici S.r.l. \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{./../figures/operation/DMM_mirrors_d3_E45_gr0.263_offset4.68.png}
+\caption{\label{fig:DMM_mirrors_45keV} Mirrors position for d-spacing of 3 nm and 45 keV energy. Grazing angle: 0.263 deg. Offset: 4.68 mm.}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Input beam}
 A beam snapshot at 15.165 m from source is shown in Figure \ref{fig:snapshot_ML1}.
 \begin{figure}[ht]
@@ -7,10 +35,53 @@ A beam snapshot at 15.165 m from source is shown in Figure \ref{fig:snapshot_ML1
 \caption{\label{fig:snapshot_ML1} White beam snapshot at 15.165 m from source (center position of ML1).}
 \end{figure}
 
+\subsubsection{Power density}
+The power density profile at 15.165 m from source is shown in Figure \ref{fig:power_profile_ML1}. Raw data can be found in the \powerprofilesurl. \\
+\begin{figure}[ht]  % spans both columns
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=\linewidth]{./../../power_profiles/power_profile_ML1.png}
+% \caption{Network 1}
+\end{subfigure}
+\hfill % maximize the horizontal distance between the graphs
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=\linewidth]{./../../power_profiles/power_profile_ML1_abs_2deg.png}
+% \caption{Network  2}
+\end{subfigure}
+\caption{\label{fig:power_profile_ML1} Power density profile at 15.165 m from source (center position of ML1). (LEFT) Input beam. (RIGHT) Absorbed by substrate at maximum grazing (2 deg); reflectivity neglected. }
+\end{figure}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Substrate design}
-The center of the first multilayer mirror of the BEATS DMM is positioned at 15.165 m from the ID photon source. \\
-CINEL proposed to increase the ML length to 500 mm. A drawing of the proposed substrate is attached.
+\subsection{ML coatings}
+Following the increase in ML length to 500 mm the d-spacing of the high-energy stripe is changed back from 2.5 nm to 3.0 nm. This gives approx. +50\% int. reflectivity (dE/E increases from 2.3\% to 3.2\%). Thanks to the increased mirror length the whole vertical beam is intercepted even at min. grazing. \\
+Coating specs of the two ML stripes are given in Table \ref{tab:coatings}.
+\begin{center}
+\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.3\textwidth} | p{0.3\textwidth} |}
+\hline
+ & \textbf{STRIPE 1} & \textbf{STRIPE 2} \\
+ & \textbf{$[W/B_{4}C]_{100} - d 3.0 nm $} & \textbf{$[Ru/B_{4}C]_{65} - d 4.0 nm $} \\
+\hline
+\label{tab:coatings}
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Substrates}
+The ML length was increased to 500 mm. A drawing of the substrate size proposed by CINEL is attached.
+
+\begin{center}
+\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
+\hline
+Substrate dimension & 500 mm × 70 mm × 60 mm \\
+ & (drawing BEATS_DMM_ML_400mm_2 attached) \\
+Coated area & 500 mm × 25 mm (2 stripes) \\
+Surface roughness & < 0.3 nm rms \\
+Slope error along Z & ≤ 0.3 µrad rms \\
+Slope error along X & < 20 µrad rms \\
+\hline
+\end{tabular}
+\end{center}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{sections/slope_error}
