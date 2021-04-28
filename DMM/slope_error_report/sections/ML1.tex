@@ -2,6 +2,7 @@
 \subsection{Overview}
 
 \begin{center}
+\begin{table}
 \begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
 \hline
 Deflection & Vertical \\
@@ -18,25 +19,83 @@ Max. power on 1st mirror & 133 W \\
 Supplier & CINEL Strumenti Scientifici S.r.l. \\
 \hline
 \end{tabular}
+\label{tab:DMM_general}
+\end{table}
 \end{center}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.8\textwidth]{./../figures/operation/DMM_mirrors_d3_E45_gr0.263_offset4.68.png}
+\includegraphics[width=1.0\textwidth]{./../figures/operation/DMM_mirrors_d3_E45_gr0.263_offset4.68.png}
 \caption{\label{fig:DMM_mirrors_45keV} Mirrors position for d-spacing of 3 nm and 45 keV energy. Grazing angle: 0.263 deg. Offset: 4.68 mm.}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Input beam}
-A beam snapshot at 15.165 m from source is shown in Figure \ref{fig:snapshot_ML1}.
+% \subsection{Input beam}
+% A beam snapshot at 15.165 m from source is shown in Figure \ref{fig:snapshot_ML1}.
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.8\textwidth]{./../../beam_snapshots/WB_snapshot_15.165.png}
 \caption{\label{fig:snapshot_ML1} White beam snapshot at 15.165 m from source (center position of ML1).}
 \end{figure}
 
-\subsubsection{Power density}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\subsection{ML coatings}
+Following the increase in ML length to 500 mm the d-spacing of the high-energy stripe is changed back from 2.5 nm to 3.0 nm. This gives approx. +50\% int. reflectivity (dE/E increases from 2.3\% to 3.2\%). Thanks to the increased mirror length the whole vertical beam is intercepted even at min. grazing. Coating specs of the two ML stripes are given in Table \ref{tab:coatings}.
+\begin{center}
+\begin{table}[h]
+\begin{tabular}[bhp]{| l | c | c |}
+\hline
+ & \textbf{STRIPE 1} & \textbf{STRIPE 2} \\
+ & \textbf{$[W/B_{4}C]_{100} - d 3.0 nm $} & \textbf{$[Ru/B_{4}C]_{65} - d 4.0 nm $} \\
+\hline
+Materials & W/B4C & Ru/B4C \\
+d-spacing [nm] & 3.0 & 4.0 \\
+d-spacing gradient along Z (O.A. 500 mm) & \multicolumn{2}{c|}{3.297 \% (0.00659 \% / mm)} \\ 
+N. bilayers & 100 & 65 \\
+Duty cycle $\gamma$ & 0.5 & 0.5 \\
+Energies [keV] & 20 – 50 & 8 - 22 \\
+dE/E & ~ 3.2 \% & ~ 3.1 \% \\
+Coated area & \multicolumn{2}{c|}{480 mm × 25 mm} \\
+Theta (Bragg angle) [deg] & 0.23 – 0.59 & 0.41 - 1.00 \\
+\hline
+\end{tabular}
+\caption{\label{tab:coatings} BEATS multilayer coatings.}
+\end{table}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Substrates}
+The ML length was increased to 500 mm. A drawing of the substrate size proposed by CINEL is attached.
+
+\begin{center}
+\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
+\hline
+Substrate dimension & 500 mm × 70 mm × 60 mm \\
+ & (see drawing attached) \\
+\hline
+Coated area & 500 mm × 25 mm (2 stripes) \\
+\hline
+Surface roughness & $< 0.3$ nm rms \\
+\hline
+Slope error along Z & $\leq 0.3$ $\mu rad$ rms \\
+\hline
+Slope error along X & $< 20$ $\mu rad$ rms \\
+\hline
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/slope_error}
+% \clearpage
+% \input{sections/slope_errorID19}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\subsection{Thermal stability}
+The thermal stability of ML1 should be verified with FEA simulations considering the white beam colliding with the mirror at the maximum Bragg angle allowed by the Bragg stage motorization (34.9 mrad). The thermal stability of the cooled mask in front of the ML1 profile shall be also verified.\\
+
 The power density profile at 15.165 m from source is shown in Figure \ref{fig:power_profile_ML1}. Raw data can be found in the \powerprofilesurl. \\
+
 \begin{figure}[ht]  % spans both columns
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\linewidth]{./../../power_profiles/power_profile_ML1.png}
@@ -50,52 +109,3 @@ The power density profile at 15.165 m from source is shown in Figure \ref{fig:po
 \caption{\label{fig:power_profile_ML1} Power density profile at 15.165 m from source (center position of ML1). (LEFT) Input beam. (RIGHT) Absorbed by substrate at maximum grazing (2 deg); reflectivity neglected. }
 \end{figure}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{ML coatings}
-Following the increase in ML length to 500 mm the d-spacing of the high-energy stripe is changed back from 2.5 nm to 3.0 nm. This gives approx. +50\% int. reflectivity (dE/E increases from 2.3\% to 3.2\%). Thanks to the increased mirror length the whole vertical beam is intercepted even at min. grazing. \\
-Coating specs of the two ML stripes are given in Table \ref{tab:coatings}.
-\begin{center}
-\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.3\textwidth} | p{0.3\textwidth} |}
-\hline
- & \textbf{STRIPE 1} & \textbf{STRIPE 2} \\
- & \textbf{$[W/B_{4}C]_{100} - d 3.0 nm $} & \textbf{$[Ru/B_{4}C]_{65} - d 4.0 nm $} \\
-\hline
-\label{tab:coatings}
-\end{tabular}
-\end{center}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Substrates}
-The ML length was increased to 500 mm. A drawing of the substrate size proposed by CINEL is attached.
-
-\begin{center}
-\begin{tabular}[bhp]{|p{0.4\textwidth} | p{0.5\textwidth}|}
-\hline
-Substrate dimension & 500 mm × 70 mm × 60 mm \\
- & (drawing BEATS_DMM_ML_400mm_2 attached) \\
-Coated area & 500 mm × 25 mm (2 stripes) \\
-Surface roughness & < 0.3 nm rms \\
-Slope error along Z & ≤ 0.3 µrad rms \\
-Slope error along X & < 20 µrad rms \\
-\hline
-\end{tabular}
-\end{center}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{sections/slope_error}
-\clearpage
-\input{sections/slope_errorID19}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\subsection{Thermal stability}
-The thermal stability of ML1 should be verified with FEA simulations considering the white beam colliding with the mirror at the maximum Bragg angle allowed by the Bragg stage motorization (34.9 mrad). The thermal stability of the cooled mask in front of the ML1 profile shall be also verified.\\
-
-The power density profile at 15.165 m from source is shown in Figure \ref{fig:power_profile_ML1}. Raw data can be found in the \powerprofilesurl. \\
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.8\textwidth]{./../../power_profiles/power_profile_ML1.png}
-\caption{\label{fig:power_profile_ML1} Power density profile at 15.165 m from source (center position of ML1).}
-\end{figure}
