@@ -5,7 +5,7 @@
 \caption{\label{fig:DMM_oasys} Double Multilayer Monochromator in Oasys Shadow.}
 \end{wrapfigure}
 
-The double-bounce DMM is modelled with two Shadow Plane Mirror widgets in series (Figure \ref{fig:DMM_oasys}). ML reflectivity is modelled with a Shadow PreMLayer widget as shown in Figure \ref{fig:PreMLayer}. The mirror surface is modified with Surface Error external splines with varying longitudinal slope error (0.1, 0.2, 0.3, 0.4 and 0.5 $\mu rad$ RMS). These modified surfaces (\ref{fig:fractals}) are simulated with the Shadow PreProcessor - Height Profile Simulator widget. The transversal slope error is kept constant at 20 $\mu rad$ RMS and fractal profiles are chosen. 
+The double-bounce DMM is modelled with two Shadow Plane Mirror widgets in series (Figure \ref{fig:DMM_oasys}). ML reflectivity is modelled with a Shadow PreMLayer widget as shown in Figure \ref{fig:PreMLayer}. The mirror surface error is is simulated with external splines with varying slope error (0.1, 0.2, 0.25, 0.3, 0.35, 0.4 and 0.5 $\mu rad$ RMS) along the beam axis (Z). Modified surfaces (\ref{fig:fractals}) are generated with the Shadow PreProcessor - Height Profile Simulator widget. The slope error perpendicular to the beam axis (X) is kept constant at 20 $\mu rad$ RMS, and fractal profiles are chosen. 
 
 \begin{figure}  % spans both columns
 \begin{subfigure}{0.5\textwidth}
@@ -31,5 +31,5 @@ The double-bounce DMM is modelled with two Shadow Plane Mirror widgets in series
   \includegraphics[width=\linewidth]{./../figures/slope_error/surface_error_profile_500x25_04x20urad.png}
   %\caption{A really Awesome Image}\label{fig:awesome_image3}
 \endminipage
-\caption{\label{fig:fractals} Modified mirror surfaces. }
+\caption{\label{fig:fractals} Modified mirror surfaces. In this figure the Y-axis corresponds to the beam path and the X-axis is perpendicular to the beam. }
 \end{figure}
