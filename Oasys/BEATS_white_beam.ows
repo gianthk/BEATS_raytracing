@@ -70,7 +70,7 @@
 		<link id="18" source_node_id="1" sink_node_id="8" source_channel="Trigger" sink_channel="Trigger" enabled="false" />
 		<link id="19" source_node_id="22" sink_node_id="24" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 		<link id="20" source_node_id="24" sink_node_id="25" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="21" source_node_id="25" sink_node_id="26" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="21" source_node_id="25" sink_node_id="26" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="22" source_node_id="23" sink_node_id="27" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="23" source_node_id="1" sink_node_id="30" source_channel="Beam" sink_channel="Input Beam" enabled="false" />
 		<link id="24" source_node_id="6" sink_node_id="1" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
@@ -82,13 +82,13 @@
 		<link id="30" source_node_id="24" sink_node_id="28" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="31" source_node_id="25" sink_node_id="34" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 		<link id="32" source_node_id="23" sink_node_id="40" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="33" source_node_id="21" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="34" source_node_id="24" sink_node_id="32" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="35" source_node_id="32" sink_node_id="33" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="36" source_node_id="32" sink_node_id="29" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="37" source_node_id="45" sink_node_id="43" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="38" source_node_id="34" sink_node_id="45" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="39" source_node_id="45" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="33" source_node_id="24" sink_node_id="32" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="34" source_node_id="32" sink_node_id="33" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="35" source_node_id="32" sink_node_id="29" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="36" source_node_id="45" sink_node_id="43" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="37" source_node_id="45" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="38" source_node_id="37" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="39" source_node_id="25" sink_node_id="45" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 	</links>
 	<annotations>
 		<text id="0" rect="(-1333.0, -342.0, 212.0, 50.0)" font-family="Helvetica" font-size="16">White beam raytracing:</text>
@@ -1624,8 +1624,8 @@ dW5kdWxhdG9yX3JhZGlhdGlvbi5oNZSMD0lOUFVUX0JFQU1fRlJPTZRLAIwWSU5URVJQT0xBVElP
 Tl9GQUNUT1JfSJRHP/AAAAAAAACMFklOVEVSUE9MQVRJT05fRkFDVE9SX1aURz/wAAAAAAAAjBJJ
 TlRFUlBPTEFUSU9OX0ZMQUeUSwCMCVBMT1RfU0VUU5RLAIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZSM
 A3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQ
-ywADAAAAAARcAAAAPAAACYMAAAMcAAAEXAAAAGEAAAmDAAADHAAAAAAAAAAACgAAAARcAAAAYQAA
-CYMAAAMclIWUh5RSlIwJdmlld190eXBllEsBdS4=
+ywADAAAAAAJYAAAAKQAAB38AAAMJAAACWAAAAE4AAAd/AAADCQAAAAAAAAAAB4AAAAJYAAAATgAA
+B38AAAMJlIWUh5RSlIwJdmlld190eXBllEsBdS4=
 </properties>
 		<properties node_id="41" format="pickle">gASVExUAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjdXJyZW50U2NyaXB0SW5kZXiUSwKMCWZv
 bnRfc2l6ZZRLBIwRbGlicmFyeUxpc3RTb3VyY2WUXZQojCRvYXN5cy53aWRnZXRzLnRvb2xzLm93
