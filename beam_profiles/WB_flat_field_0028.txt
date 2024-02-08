@@ -1,0 +1,663 @@
+********** mda-dump 1.4.2 generated output **********
+
+
+Version = 1.4
+Scan number = 28
+Data rank = 2
+Largest scan bounds = 20 x 40
+Regularity = 1
+File offset to extra PV's = 12040 bytes
+
+
+This scan's rank = 2
+Number of requested points = 20
+Last completed point = 20
+Offsets to lower scans = 520, 1096, 1672, 2248, 2824, 3400, 3976, 4552, 5128, 5704, 6280, 6856, 7432, 8008, 8584, 9160, 9736, 10312, 10888, 11464
+Scan name = "BEATS:scan1"
+Scan time = "Feb 07, 2024 12:12:06.652808"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10R2-MO-MC3:EH-DSTG-STP-TRSX1.VAL
+             Description: 
+               Step Mode: LINEAR
+                    Unit: mm
+           Readback Name: I10R2-MO-MC3:EH-DSTG-STP-TRSX1.RBV
+    Readback Description: 
+           Readback Unit: mm
+
+Trigger #1
+    Trigger: 0
+       Name: BEATS:scan2.EXSC
+    Command: 1
+
+Positioner #1 data:
+87.750275 91.707425 95.665325 99.623025 103.580925 107.538925 111.496575 115.454625 119.412575 123.370525 127.328475 131.286175 135.243925 139.202025 143.159825 147.117575 151.075925 155.033475 158.991475 162.949525 
+
+
+1-D Subscan #1
+Offset = 520
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:12:13.259901"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.564 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.9232 7.1794 7.4358 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #2
+Offset = 1096
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:13:39.540003"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8206 3.077 3.3334 3.5896 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6668 6.923 7.1794 7.4358 7.6924 7.9486 8.205 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #3
+Offset = 1672
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:14:59.011892"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.795 2.0512 2.3078 2.564 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6922 7.9488 8.205 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #4
+Offset = 2248
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:16:18.281975"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.2822 1.5384 1.7948 2.0512 2.3076 2.5642 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1796 7.436 7.6924 7.9488 8.205 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #5
+Offset = 2824
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:17:39.958059"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8206 3.077 3.3334 3.5896 3.8462 4.1024 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.436 7.6924 7.9486 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #6
+Offset = 3400
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:18:58.931385"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.2822 1.5384 1.7948 2.0512 2.3078 2.564 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.9232 7.1794 7.4358 7.6922 7.9486 8.2052 8.4616 8.718 8.9744 9.2306 9.4872 9.7436 10 
+
+
+1-D Subscan #7
+Offset = 3976
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:20:19.703669"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8204 3.0768 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.154 6.4102 6.6668 6.923 7.1794 7.436 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #8
+Offset = 4552
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:21:40.372300"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0514 2.3078 2.5642 2.8206 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1796 7.4358 7.6924 7.9486 8.205 8.4616 8.718 8.9744 9.2306 9.4872 9.7436 10 
+
+
+1-D Subscan #9
+Offset = 5128
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:22:59.045171"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0514 2.3076 2.5642 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6924 7.9488 8.2052 8.4616 8.7178 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #10
+Offset = 5704
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:24:18.717528"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8204 3.077 3.3332 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #11
+Offset = 6280
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:25:38.685170"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3078 2.5642 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6668 6.923 7.1794 7.436 7.6922 7.9488 8.2052 8.4616 8.7178 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #12
+Offset = 6856
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:26:58.255043"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.795 2.0512 2.3076 2.564 2.8206 3.0768 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #13
+Offset = 7432
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:28:19.129585"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.564 2.8206 3.077 3.3332 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1796 7.4358 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7434 10 
+
+
+1-D Subscan #14
+Offset = 8008
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:29:39.401528"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0514 2.3076 2.5642 2.8206 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1796 7.4358 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #15
+Offset = 8584
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:30:55.866691"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8206 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6922 7.9488 8.205 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #16
+Offset = 9160
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:32:16.736807"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8206 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6924 7.9486 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #17
+Offset = 9736
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:33:36.105853"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0514 2.3076 2.564 2.8204 3.077 3.3334 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4104 6.6666 6.923 7.1794 7.4358 7.6924 7.9488 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #18
+Offset = 10312
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:34:54.375365"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3078 2.564 2.8206 3.077 3.3334 3.5896 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6924 7.9486 8.205 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #19
+Offset = 10888
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:36:12.743130"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0256 1.282 1.5384 1.7948 2.0512 2.3076 2.564 2.8206 3.077 3.3334 3.5896 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6924 7.9488 8.2052 8.4616 8.7178 8.9744 9.2308 9.4872 9.7436 10 
+
+
+1-D Subscan #20
+Offset = 11464
+
+This scan's rank = 1
+Number of requested points = 40
+Last completed point = 40
+Scan name = "BEATS:scan2"
+Scan time = "Feb 07, 2024 12:37:31.910216"
+Number of positioners = 1
+Number of detectors = 0
+Number of triggers = 1
+
+Positioner Data Set #1
+              Positioner: 0
+                    Name: I10-EH-MO-MICOS:m1.VAL
+             Description: Micos
+               Step Mode: LINEAR
+                    Unit: deg
+           Readback Name: I10-EH-MO-MICOS:m1.RBV
+    Readback Description: Micos
+           Readback Unit: deg
+
+Trigger #1
+    Trigger: 0
+       Name: FLIR:cam1:Acquire
+    Command: 1
+
+Positioner #1 data:
+0 0.2564 0.5128 0.7692 1.0258 1.282 1.5384 1.7948 2.0512 2.3076 2.5642 2.8206 3.077 3.3332 3.5898 3.8462 4.1026 4.359 4.6154 4.8718 5.1282 5.3846 5.641 5.8974 6.1538 6.4102 6.6666 6.923 7.1794 7.4358 7.6922 7.9486 8.2052 8.4616 8.718 8.9744 9.2308 9.4872 9.7436 10 
+
+
+Extra PV Offset = 12040
+
+Number of Extra PV's = 0.
