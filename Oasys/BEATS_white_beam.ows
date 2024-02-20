@@ -80,15 +80,15 @@
 		<link id="28" source_node_id="27" sink_node_id="41" source_channel="xoppy_data" sink_channel="in_object_1" enabled="false" />
 		<link id="29" source_node_id="23" sink_node_id="41" source_channel="xoppy_data" sink_channel="in_object_2" enabled="false" />
 		<link id="30" source_node_id="24" sink_node_id="28" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="31" source_node_id="25" sink_node_id="34" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="31" source_node_id="25" sink_node_id="34" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 		<link id="32" source_node_id="23" sink_node_id="40" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="33" source_node_id="24" sink_node_id="32" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="34" source_node_id="32" sink_node_id="29" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 		<link id="35" source_node_id="45" sink_node_id="43" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="36" source_node_id="25" sink_node_id="45" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="37" source_node_id="25" sink_node_id="33" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="38" source_node_id="25" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="39" source_node_id="36" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="38" source_node_id="34" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="39" source_node_id="21" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 	</links>
 	<annotations>
 		<text id="0" rect="(-1333.0, -342.0, 212.0, 50.0)" font-family="Helvetica" font-size="16">White beam raytracing:</text>
@@ -1327,8 +1327,8 @@ TUWUjBNwb3dlcjNEY29tcG9uZW50Lmg1lIwPSU5QVVRfQkVBTV9GSUxFlIwWdW5kdWxhdG9yX3Jh
 ZGlhdGlvbi5oNZSMD0lOUFVUX0JFQU1fRlJPTZRLAIwWSU5URVJQT0xBVElPTl9GQUNUT1JfSJRH
 P/AAAAAAAACMFklOVEVSUE9MQVRJT05fRkFDVE9SX1aURz/wAAAAAAAAjBJJTlRFUlBPTEFUSU9O
 X0ZMQUeUSwCMCVBMT1RfU0VUU5RLAIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBp
-Y2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAAJ9AAAB
-MQAAB6QAAAQRAAACfQAAAVYAAAekAAAEEQAAAAAAAAAACgAAAAJ9AAABVgAAB6QAAAQRlIWUh5RS
+Y2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAABgAAAA
+GwAABYcAAAL7AAAAYAAAAEAAAAWHAAAC+wAAAAAAAAAAB4AAAABgAAAAQAAABYcAAAL7lIWUh5RS
 lIwJdmlld190eXBllEsBdS4=
 </properties>
 		<properties node_id="28" format="pickle">gASV8AIAAAAAAAB9lCiMB0VMMV9BTkeUR0AI+ISv0pYPjAdFTDFfREVGlEsBjAdFTDFfREVOlIwE
