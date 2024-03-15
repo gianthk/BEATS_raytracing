@@ -26,7 +26,7 @@
 		<node id="22" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="fix mask aperture @42m: 75.6x16.8" position="(-772.0, 271.0)" />
 		<node id="23" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="CVD2; t=0.3mm" position="(-106.0, 269.0)" />
 		<node id="24" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="CVD1; t=0.15mm" position="(-622.0, 271.0)" />
-		<node id="25" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="C 5mm" position="(-472.0, 271.0)" />
+		<node id="25" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="C 5mm" position="(-467.0, 263.0)" />
 		<node id="26" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Cu 2mm" position="(-324.0, 572.0)" />
 		<node id="27" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="0.8 mm C" position="(31.0, 214.0)" />
 		<node id="28" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Si 2mm" position="(-472.0, 571.0)" />
@@ -35,7 +35,7 @@
 		<node id="31" name="Screen-Slits" qualified_name="orangecontrib.shadow.widgets.optical_elements.ow_screen_slits.ScreenSlits" project_name="OASYS1-ShadowOui" version="" title="Slits_2@37.6m" position="(45.0, -175.0)" />
 		<node id="32" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Cu 4mm" position="(-472.0, 421.0)" />
 		<node id="33" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="C 5mm" position="(-319.0, 430.0)" />
-		<node id="34" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Si 5mm" position="(-312.0, 133.0)" />
+		<node id="34" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Si 5mm" position="(-303.0, 138.0)" />
 		<node id="35" name="Wiggler Radiation" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" project_name="OASYS1-XOPPY" version="" title="gap 15 mm" position="(-925.0, 369.0)" />
 		<node id="36" name="Wiggler Radiation" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" project_name="OASYS1-XOPPY" version="" title="gap 20 mm" position="(-925.0, 457.0)" />
 		<node id="37" name="Wiggler Radiation" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" project_name="OASYS1-XOPPY" version="" title="gap 30 mm" position="(-926.0, 547.0)" />
@@ -47,6 +47,8 @@
 		<node id="43" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Fe 50um" position="(-32.0, 446.0)" />
 		<node id="44" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="15mm terracotta" position="(451.0, 777.0)" />
 		<node id="45" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Al 2mm" position="(-208.0, 412.0)" />
+		<node id="46" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="W 0.5mm" position="(6.0, 630.0)" />
+		<node id="47" name="Power3Dcomponent" qualified_name="orangecontrib.xoppy.widgets.optics.power3Dcomponent.OWpower3Dcomponent" project_name="OASYS1-XOPPY" version="" title="Au 0.5mm" position="(23.0, 780.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="1" sink_node_id="4" source_channel="Beam" sink_channel="Input Beam" enabled="false" />
@@ -70,25 +72,27 @@
 		<link id="18" source_node_id="1" sink_node_id="8" source_channel="Trigger" sink_channel="Trigger" enabled="true" />
 		<link id="19" source_node_id="22" sink_node_id="24" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 		<link id="20" source_node_id="24" sink_node_id="25" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="21" source_node_id="25" sink_node_id="26" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="22" source_node_id="23" sink_node_id="27" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="23" source_node_id="1" sink_node_id="30" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
-		<link id="24" source_node_id="6" sink_node_id="1" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
-		<link id="25" source_node_id="11" sink_node_id="31" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
-		<link id="26" source_node_id="31" sink_node_id="6" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
-		<link id="27" source_node_id="27" sink_node_id="39" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="28" source_node_id="27" sink_node_id="41" source_channel="xoppy_data" sink_channel="in_object_1" enabled="false" />
-		<link id="29" source_node_id="23" sink_node_id="41" source_channel="xoppy_data" sink_channel="in_object_2" enabled="false" />
-		<link id="30" source_node_id="24" sink_node_id="28" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="31" source_node_id="25" sink_node_id="34" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="32" source_node_id="23" sink_node_id="40" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="33" source_node_id="24" sink_node_id="32" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="34" source_node_id="32" sink_node_id="29" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="35" source_node_id="45" sink_node_id="43" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="36" source_node_id="25" sink_node_id="45" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="37" source_node_id="25" sink_node_id="33" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
-		<link id="38" source_node_id="34" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="39" source_node_id="21" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="21" source_node_id="25" sink_node_id="26" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="22" source_node_id="1" sink_node_id="30" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
+		<link id="23" source_node_id="6" sink_node_id="1" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
+		<link id="24" source_node_id="11" sink_node_id="31" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
+		<link id="25" source_node_id="31" sink_node_id="6" source_channel="Beam" sink_channel="Input Beam" enabled="true" />
+		<link id="26" source_node_id="27" sink_node_id="39" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="27" source_node_id="27" sink_node_id="41" source_channel="xoppy_data" sink_channel="in_object_1" enabled="false" />
+		<link id="28" source_node_id="23" sink_node_id="41" source_channel="xoppy_data" sink_channel="in_object_2" enabled="false" />
+		<link id="29" source_node_id="24" sink_node_id="28" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="30" source_node_id="25" sink_node_id="34" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="31" source_node_id="23" sink_node_id="40" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="32" source_node_id="24" sink_node_id="32" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="33" source_node_id="45" sink_node_id="43" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="34" source_node_id="25" sink_node_id="45" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="35" source_node_id="25" sink_node_id="33" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="36" source_node_id="21" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="37" source_node_id="25" sink_node_id="29" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="38" source_node_id="23" sink_node_id="46" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="39" source_node_id="23" sink_node_id="47" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
+		<link id="40" source_node_id="25" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="41" source_node_id="46" sink_node_id="27" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 	</links>
 	<annotations>
 		<text id="0" rect="(-1333.0, -342.0, 212.0, 50.0)" font-family="Helvetica" font-size="16">White beam raytracing:</text>
@@ -1230,7 +1234,7 @@ ci8yMDU4Xy1fZmluYWxfbWFnbmV0aWNfZGVzaWduLzIwNThfM1BXIEZpZWxkIGFuZCBGaWVsZElu
 dGVncmFsIC0gcmF3IGRhdGEvRmxkUHJvZmlsZV9TUEVDVFJBX1IwNl9nMTEuMTUuZGF0lIwMSDVf
 RklMRV9EVU1QlEsAjAtIU0xJVFBPSU5UU5RLyIwCS1aUR0A2an752yLRjAhOUEVSSU9EU5RHQEKA
 AAAAAACMC05UUkFKUE9JTlRTlE31AYwMUEFTU0VQQVJUT1VUlEdACAAAAAAAAIwIUEVSSU9ESUSU
-Rz++uFHrhR64jA9QSE9UT05FTkVSR1lNQViUR0D4agAAAAAAjA9QSE9UT05FTkVSR1lNSU6UR0CP
+Rz++uFHrhR64jA9QSE9UT05FTkVSR1lNQViUR0EF+QAAAAAAjA9QSE9UT05FTkVSR1lNSU6UR0CP
 QAAAAAAAjBJQSE9UT05FTkVSR1lQT0lOVFOUTfQBjAxQT0xBUklaQVRJT06USwCMEFNISUZUX0JF
 VEFYX0ZMQUeUSwSMEVNISUZUX0JFVEFYX1ZBTFVFlEcAAAAAAAAAAIwMU0hJRlRfWF9GTEFHlEsA
 jA1TSElGVF9YX1ZBTFVFlEcAAAAAAAAAAIwLVlNMSVRQT0lOVFOUS8iMDWJtX2RpdmVyZ2VuY2WU
@@ -1238,8 +1242,8 @@ Rz9QYk3S8an8jBFibV9tYWduZXRpY19maWVsZJRHP/AEGJN0vGqMEmJtX21hZ25ldGljX3JhZGl1
 c5RHQCQAAAAAAACMDWg1X2VudHJ5X25hbWWUjA9YT1BQWV9SQURJQVRJT06UjAdoNV9maWxllIwU
 d2lnZ2xlcl9yYWRpYXRpb24uaDWUjA1oNV9pbml0aWFsaXpllIiMDWg1X3BhcmFtZXRlcnOUTowT
 c2F2ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENv
-cmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAACAAAAAIAAABacAAAMAAAAAgAAAAEUAAAWnAAAD
-AAAAAAAAAAAACgAAAACAAAAARQAABacAAAMAlIWUh5RSlIwJdmlld190eXBllEsBdS4=
+cmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAAB8AAAAJAAABaMAAAMEAAAAfAAAAEkAAAWjAAAD
+BAAAAAAAAAAACgAAAAB8AAAASQAABaMAAAMElIWUh5RSlIwJdmlld190eXBllEsBdS4=
 </properties>
 		<properties node_id="22" format="pickle">gASV7wIAAAAAAAB9lCiMB0VMMV9BTkeUR0AI+ISv0pYPjAdFTDFfREVGlEsBjAdFTDFfREVOlIwE
 My41MpSMCEVMMV9GTEFHlEsCjAdFTDFfRk9SlIwBQ5SMCEVMMV9IR0FQlEdAUuZmZmZmZowORUwx
@@ -1313,7 +1317,7 @@ b3JfcmFkaWF0aW9uLmg1lIwPSU5QVVRfQkVBTV9GUk9NlEsAjBZJTlRFUlBPTEFUSU9OX0ZBQ1RP
 Ul9IlEc/8AAAAAAAAIwWSU5URVJQT0xBVElPTl9GQUNUT1JfVpRHP/AAAAAAAACMEklOVEVSUE9M
 QVRJT05fRkxBR5RLAIwJUExPVF9TRVRTlEsCjBNzYXZlZFdpZGdldEdlb21ldHJ5lIwDc2lwlIwO
 X3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAA
-AIAAAAAiAAAFpwAAAwIAAACAAAAARwAABacAAAMCAAAAAAAAAAAKAAAAAIAAAABHAAAFpwAAAwKU
+AIAAAABHAAAFpwAAAwIAAACAAAAARwAABacAAAMCAAAAAAAAAAAKAAAAAIAAAABHAAAFpwAAAwKU
 hZSHlFKUjAl2aWV3X3R5cGWUSwB1Lg==
 </properties>
 		<properties node_id="27" format="pickle">gASV6wIAAAAAAAB9lCiMB0VMMV9BTkeUR0AI+ISv0pYPjAdFTDFfREVGlEsBjAdFTDFfREVOlIwA
@@ -1327,8 +1331,8 @@ TUWUjBNwb3dlcjNEY29tcG9uZW50Lmg1lIwPSU5QVVRfQkVBTV9GSUxFlIwWdW5kdWxhdG9yX3Jh
 ZGlhdGlvbi5oNZSMD0lOUFVUX0JFQU1fRlJPTZRLAIwWSU5URVJQT0xBVElPTl9GQUNUT1JfSJRH
 P/AAAAAAAACMFklOVEVSUE9MQVRJT05fRkFDVE9SX1aURz/wAAAAAAAAjBJJTlRFUlBPTEFUSU9O
 X0ZMQUeUSwCMCVBMT1RfU0VUU5RLAIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSMDl91bnBp
-Y2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAABgAAAA
-GwAABYcAAAL7AAAAYAAAAEAAAAWHAAAC+wAAAAAAAAAAB4AAAABgAAAAQAAABYcAAAL7lIWUh5RS
+Y2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAAAALzAAAB
+IAAACBoAAAQAAAAC8wAAAUUAAAgaAAAEAAAAAAAAAAAACgAAAALzAAABRQAACBoAAAQAlIWUh5RS
 lIwJdmlld190eXBllEsBdS4=
 </properties>
 		<properties node_id="28" format="pickle">gASV8AIAAAAAAAB9lCiMB0VMMV9BTkeUR0AI+ISv0pYPjAdFTDFfREVGlEsBjAdFTDFfREVOlIwE
@@ -1579,7 +1583,7 @@ P1BiTdLxqfyMEWJtX21hZ25ldGljX2ZpZWxklEc/8AQYk3S8aowSYm1fbWFnbmV0aWNfcmFkaXVz
 lEdAJAAAAAAAAIwNaDVfZW50cnlfbmFtZZSMD1hPUFBZX1JBRElBVElPTpSMB2g1X2ZpbGWUjBR3
 aWdnbGVyX3JhZGlhdGlvbi5oNZSMDWg1X2luaXRpYWxpemWUiIwNaDVfcGFyYW1ldGVyc5ROjBNz
 YXZlZFdpZGdldEdlb21ldHJ5lIwDc2lwlIwOX3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29y
-ZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAAAIAAAAAiAAAFpwAAAwIAAACAAAAARwAABacAAAMC
+ZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAAAIAAAABHAAAFpwAAAwIAAACAAAAARwAABacAAAMC
 AAAAAAAAAAAKAAAAAIAAAABHAAAFpwAAAwKUhZSHlFKUjAl2aWV3X3R5cGWUSwB1Lg==
 </properties>
 		<properties node_id="38" format="pickle">gASVtgMAAAAAAAB9lCiMC0NPTlZPTFVUSU9OlEsBjAhESVNUQU5DRZRHQEUAAAAAAACMD0VMRUNU
@@ -1604,7 +1608,7 @@ AAAAAAAAAAAKAAAAAioAAABAAAAHUQAAAvuUhZSHlFKUjAl2aWV3X3R5cGWUSwB1Lg==
 Ni43M5SMCEVMMV9GTEFHlEsAjAdFTDFfRk9SlIwJTHUzQWw1TzEylIwIRUwxX0hHQVCUR0BUAAAA
 AAAAjA5FTDFfSEdBUENFTlRFUpRHAAAAAAAAAACMCEVMMV9ITUFHlEc/8AAAAAAAAIwIRUwxX0hS
 T1SURwAAAAAAAAAAjAdFTDFfUk9VlEc/09cKPXCj14wNRUwxX1NMSVRfQ1JPUJRLAIwHRUwxX1RI
-SZRHP9ZmZmZmZmaMCEVMMV9WR0FQlEdANAAAAAAAAIwORUwxX1ZHQVBDRU5URVKURwAAAAAAAAAA
+SZRHP9MzMzMzMzOMCEVMMV9WR0FQlEdANAAAAAAAAIwORUwxX1ZHQVBDRU5URVKURwAAAAAAAAAA
 jAhFTDFfVk1BR5RHP/AAAAAAAACMCEVMMV9WUk9UlEcAAAAAAAAAAIwJRklMRV9EVU1QlEsAjA9G
 SUxFX0lOUFVUX0ZMQUeUSwCMD0ZJTEVfSU5QVVRfTkFNRZSMFnBvd2VyM0Rjb21wb25lbnRfaW4u
 aDWUjAlGSUxFX05BTUWUjBNwb3dlcjNEY29tcG9uZW50Lmg1lIwPSU5QVVRfQkVBTV9GSUxFlIwW
@@ -1789,6 +1793,36 @@ Tl9GTEFHlEsAjAlQTE9UX1NFVFOUSwKME3NhdmVkV2lkZ2V0R2VvbWV0cnmUjANzaXCUjA5fdW5w
 aWNrbGVfdHlwZZSTlIwMUHlRdDUuUXRDb3JllIwKUUJ5dGVBcnJheZRDQgHZ0MsAAwAAAAAAgAAA
 ACIAAAWnAAADAgAAAIAAAABHAAAFpwAAAwIAAAAAAAAAAAoAAAAAgAAAAEcAAAWnAAADApSFlIeU
 UpSMCXZpZXdfdHlwZZRLAXUu
+</properties>
+		<properties node_id="46" format="pickle">gASV8AIAAAAAAAB9lCiMB0VMMV9BTkeUR0AI+ISv0pYPjAdFTDFfREVGlEsBjAdFTDFfREVOlIwF
+MTkuMjiUjAhFTDFfRkxBR5RLAIwHRUwxX0ZPUpSMAVeUjAhFTDFfSEdBUJRHQFQAAAAAAACMDkVM
+MV9IR0FQQ0VOVEVSlEcAAAAAAAAAAIwIRUwxX0hNQUeURz/wAAAAAAAAjAhFTDFfSFJPVJRHAAAA
+AAAAAACMB0VMMV9ST1WURz/T1wo9cKPXjA1FTDFfU0xJVF9DUk9QlEsAjAdFTDFfVEhJlEc/4AAA
+AAAAAIwIRUwxX1ZHQVCUR0A0AAAAAAAAjA5FTDFfVkdBUENFTlRFUpRHAAAAAAAAAACMCEVMMV9W
+TUFHlEc/8AAAAAAAAIwIRUwxX1ZST1SURwAAAAAAAAAAjAlGSUxFX0RVTVCUSwCMD0ZJTEVfSU5Q
+VVRfRkxBR5RLAIwPRklMRV9JTlBVVF9OQU1FlIwWcG93ZXIzRGNvbXBvbmVudF9pbi5oNZSMCUZJ
+TEVfTkFNRZSME3Bvd2VyM0Rjb21wb25lbnQuaDWUjA9JTlBVVF9CRUFNX0ZJTEWUjBZ1bmR1bGF0
+b3JfcmFkaWF0aW9uLmg1lIwPSU5QVVRfQkVBTV9GUk9NlEsAjBZJTlRFUlBPTEFUSU9OX0ZBQ1RP
+Ul9IlEc/8AAAAAAAAIwWSU5URVJQT0xBVElPTl9GQUNUT1JfVpRHP/AAAAAAAACMEklOVEVSUE9M
+QVRJT05fRkxBR5RLAIwJUExPVF9TRVRTlEsDjBNzYXZlZFdpZGdldEdlb21ldHJ5lIwDc2lwlIwO
+X3VucGlja2xlX3R5cGWUk5SMDFB5UXQ1LlF0Q29yZZSMClFCeXRlQXJyYXmUQ0IB2dDLAAMAAAAA
+AIAAAABHAAAFpwAAAwIAAACAAAAARwAABacAAAMCAAAAAAAAAAAKAAAAAIAAAABHAAAFpwAAAwKU
+hZSHlFKUjAl2aWV3X3R5cGWUSwB1Lg==
+</properties>
+		<properties node_id="47" format="pickle">gASV8QIAAAAAAAB9lCiMB0VMMV9BTkeUR0AI+ISv0pYPjAdFTDFfREVGlEsBjAdFTDFfREVOlIwF
+MTkuMzKUjAhFTDFfRkxBR5RLAIwHRUwxX0ZPUpSMAkF1lIwIRUwxX0hHQVCUR0BUAAAAAAAAjA5F
+TDFfSEdBUENFTlRFUpRHAAAAAAAAAACMCEVMMV9ITUFHlEc/8AAAAAAAAIwIRUwxX0hST1SURwAA
+AAAAAAAAjAdFTDFfUk9VlEc/09cKPXCj14wNRUwxX1NMSVRfQ1JPUJRLAIwHRUwxX1RISZRHP+AA
+AAAAAACMCEVMMV9WR0FQlEdANAAAAAAAAIwORUwxX1ZHQVBDRU5URVKURwAAAAAAAAAAjAhFTDFf
+Vk1BR5RHP/AAAAAAAACMCEVMMV9WUk9UlEcAAAAAAAAAAIwJRklMRV9EVU1QlEsAjA9GSUxFX0lO
+UFVUX0ZMQUeUSwCMD0ZJTEVfSU5QVVRfTkFNRZSMFnBvd2VyM0Rjb21wb25lbnRfaW4uaDWUjAlG
+SUxFX05BTUWUjBNwb3dlcjNEY29tcG9uZW50Lmg1lIwPSU5QVVRfQkVBTV9GSUxFlIwWdW5kdWxh
+dG9yX3JhZGlhdGlvbi5oNZSMD0lOUFVUX0JFQU1fRlJPTZRLAIwWSU5URVJQT0xBVElPTl9GQUNU
+T1JfSJRHP/AAAAAAAACMFklOVEVSUE9MQVRJT05fRkFDVE9SX1aURz/wAAAAAAAAjBJJTlRFUlBP
+TEFUSU9OX0ZMQUeUSwCMCVBMT1RfU0VUU5RLA4wTc2F2ZWRXaWRnZXRHZW9tZXRyeZSMA3NpcJSM
+Dl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQywADAAAA
+AACAAAAARwAABacAAAMCAAAAgAAAAEcAAAWnAAADAgAAAAAAAAAACgAAAACAAAAARwAABacAAAMC
+lIWUh5RSlIwJdmlld190eXBllEsAdS4=
 </properties>
 	</node_properties>
 </scheme>
