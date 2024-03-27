@@ -131,10 +131,11 @@ def M1_coordinates(l, theta):
 #     print(f"Mirrors length: {l * 1e3:.3} [mm]")
 #     print(ray_high.value)
 
-
 @solara.component
 def Page():
     energy, set_energy = solara.use_state(20000.0)
+    offset, set_offset = solara.use_state(8.0)
+    theta, set_theta = solara.use_state(13.0)
 
     # check energy VS stripe
     if energy > 25000:
@@ -150,13 +151,14 @@ def Page():
 
     index = data_frame.E[data_frame.E == energy].index[0]
     lambda_E = 1239.842 / energy # nm
-    theta = 1e-3*data_frame.theta[index] # rad
+    set_theta(1e-3*data_frame.theta[index]) # mrad
 
     # FIRST MIRROR
     M1 = M1_coordinates(l, theta)
 
     # OFFSET
-    o_0_p = L_1_p * np.tan(2 * theta)  # [m]
+    # o_0_p = L_1_p * np.tan(2 * theta)  # [m]
+    set_offset(L_1_p * np.tan(2 * theta))  # [m]
 
     # SECOND MIRROR
     # M2 = np.array([[L_1_p-(l/2)*np.cos(theta), o_0_p-(l/2)*np.sin(theta)],
@@ -164,7 +166,8 @@ def Page():
     #                [L_1_p+(l/2)*np.cos(theta), o_0_p+(l/2)*np.sin(theta)]])
     # ML2 will have the same angle as ML1.
     # Its center position is translated by the distance between ML towers along X and by the DMM offset along Z.
-    M2 = M1 + L_1_p * (np.array([[1, 0], [1, 0], [1, 0]], dtype='float')) + o_0_p * (np.array([[0, 1], [0, 1], [0, 1]], dtype='float'))
+    # M2 = M1 + L_1_p * (np.array([[1, 0], [1, 0], [1, 0]], dtype='float')) + o_0_p * (np.array([[0, 1], [0, 1], [0, 1]], dtype='float'))
+    M2 = M1 + L_1_p * (np.array([[1, 0], [1, 0], [1, 0]], dtype='float')) + offset * (np.array([[0, 1], [0, 1], [0, 1]], dtype='float'))
 
     # TRACE EXTREME RAYS
     footprint = Y_1 / np.sin(theta)  # [m] footprint height on the mirrors
@@ -175,8 +178,10 @@ def Page():
     M1_ray = np.array([[-(footprint / 2) * np.cos(theta), -(footprint / 2) * np.sin(theta)],
                        [(footprint / 2) * np.cos(theta), (footprint / 2) * np.sin(theta)]])
     # Extreme rays on SECOND MIRROR
-    M2_ray = np.array([[L_1_p - (footprint / 2) * np.cos(theta), o_0_p - (footprint / 2) * np.sin(theta)],
-                       [L_1_p + (footprint / 2) * np.cos(theta), o_0_p + (footprint / 2) * np.sin(theta)]])
+    # M2_ray = np.array([[L_1_p - (footprint / 2) * np.cos(theta), o_0_p - (footprint / 2) * np.sin(theta)],
+    #                    [L_1_p + (footprint / 2) * np.cos(theta), o_0_p + (footprint / 2) * np.sin(theta)]])
+    M2_ray = np.array([[L_1_p - (footprint / 2) * np.cos(theta), offset - (footprint / 2) * np.sin(theta)],
+                       [L_1_p + (footprint / 2) * np.cos(theta), offset + (footprint / 2) * np.sin(theta)]])
 
     ray_low = np.array([[-1, M1_ray[0, 0], M2_ray[0, 0], M2_ray[0, 0] + 1],
                         [M1_ray[0, 1], M1_ray[0, 1], M2_ray[0, 1], M2_ray[0, 1]]])
@@ -208,6 +213,8 @@ def Page():
                 solara.Image(theta_E_plot_path, width='600px')
             with solara.Card("BEATS DMM configuration", margin=0, classes=["my-2"]):
                 solara.FigureMatplotlib(fig, dependencies=[energy])
+                solara.Markdown('Theta: ' + str(theta) + 'mrad')
+                solara.Markdown('Offset: ' + str(1e3*offset) + 'mm')
 
         with solara.Card("Select settings"):
             with solara.Row():
