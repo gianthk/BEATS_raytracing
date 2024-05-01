@@ -1,6 +1,9 @@
 # BEATS DMM solara GUI
 #   Small solara GUI to plot position and coordinates of the mirrors of a BEATS DMM for a given energy
 #
+#   To run this GUI cd to this file location and type:
+#   $ solara run BEATS_DMM_solara_GUI.py --host localhost
+#
 #   ______________________________________________________
 #
 #   Author:         Gianluca Iori (gianthk.iori@gmail.com)
@@ -151,7 +154,7 @@ def Page():
 
     index = data_frame.E[data_frame.E == energy].index[0]
     lambda_E = 1239.842 / energy # nm
-    set_theta(1e-3*data_frame.theta[index]) # mrad
+    set_theta(1e-3*data_frame.theta[index]) # rad
 
     # FIRST MIRROR
     M1 = M1_coordinates(l, theta)
@@ -204,17 +207,17 @@ def Page():
     # ax.yticks(np.arange(-0.005, 0.026, 0.001))
     ax.set(xlim=(-0.5, 1), ylim=(-0.005, 0.026))
 
-    with solara.Card("Load dataset", classes=["my-2"]):
+    with solara.Card(classes=["my-2"]):
         # solara.Title('BEATS DMM GUI')
-        solara.Markdown("This is the home page")
+        # solara.Markdown("This is the home page")
 
         with solara.Columns():
             with solara.Card("Bragg-law for BEATS DMM"):
                 solara.Image(theta_E_plot_path, width='600px')
             with solara.Card("BEATS DMM configuration", margin=0, classes=["my-2"]):
                 solara.FigureMatplotlib(fig, dependencies=[energy])
-                solara.Markdown('Theta: ' + str(theta) + 'mrad')
-                solara.Markdown('Offset: ' + str(1e3*offset) + 'mm')
+                solara.Markdown('Theta: ' + str(theta) + ' [rad]')
+                solara.Markdown('Offset: ' + str(1e3*offset) + ' [mm]')
 
         with solara.Card("Select settings"):
             with solara.Row():

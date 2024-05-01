@@ -95,11 +95,11 @@
 		<link id="26" source_node_id="24" sink_node_id="28" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="27" source_node_id="24" sink_node_id="32" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="false" />
 		<link id="28" source_node_id="43" sink_node_id="51" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="29" source_node_id="21" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="30" source_node_id="29" sink_node_id="56" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="31" source_node_id="56" sink_node_id="60" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="32" source_node_id="23" sink_node_id="62" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
-		<link id="33" source_node_id="24" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="29" source_node_id="29" sink_node_id="56" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="30" source_node_id="56" sink_node_id="60" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="31" source_node_id="23" sink_node_id="62" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="32" source_node_id="24" sink_node_id="23" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
+		<link id="33" source_node_id="37" sink_node_id="22" source_channel="xoppy_data" sink_channel="ExchangeData" enabled="true" />
 	</links>
 	<annotations>
 		<text id="0" rect="(-1333.0, -342.0, 212.0, 50.0)" font-family="Helvetica" font-size="16">White beam raytracing:</text>
@@ -1641,8 +1641,8 @@ dW5kdWxhdG9yX3JhZGlhdGlvbi5oNZSMD0lOUFVUX0JFQU1fRlJPTZRLAIwWSU5URVJQT0xBVElP
 Tl9GQUNUT1JfSJRHP/AAAAAAAACMFklOVEVSUE9MQVRJT05fRkFDVE9SX1aURz/wAAAAAAAAjBJJ
 TlRFUlBPTEFUSU9OX0ZMQUeUSwCMCVBMT1RfU0VUU5RLAowTc2F2ZWRXaWRnZXRHZW9tZXRyeZSM
 A3NpcJSMDl91bnBpY2tsZV90eXBllJOUjAxQeVF0NS5RdENvcmWUjApRQnl0ZUFycmF5lENCAdnQ
-ywADAAAAAACAAAAAIAAABacAAAMAAAAAgAAAAEUAAAWnAAADAAAAAAAAAAAACgAAAACAAAAARQAA
-BacAAAMAlIWUh5RSlIwJdmlld190eXBllEsBdS4=
+ywADAAAAAACAAAAAHgAABacAAAL+AAAAgAAAAEMAAAWnAAAC/gAAAAAAAAAACgAAAACAAAAAQwAA
+BacAAAL+lIWUh5RSlIwJdmlld190eXBllEsBdS4=
 </properties>
 		<properties node_id="41" format="pickle">gASVExUAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjdXJyZW50U2NyaXB0SW5kZXiUSwKMCWZv
 bnRfc2l6ZZRLBIwRbGlicmFyeUxpc3RTb3VyY2WUXZQojCRvYXN5cy53aWRnZXRzLnRvb2xzLm93
