@@ -2,7 +2,7 @@
 #   Small solara GUI to plot position and coordinates of the mirrors of a BEATS DMM for a given energy
 #
 #   To run this GUI cd to this file location and type:
-#   $ solara run BEATS_DMM_solara_GUI.py --host localhost
+#   $ solara run BEATS_DMM_solara_GUI.py --host localhost --port 4567
 #
 #   ______________________________________________________
 #
